@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="/resources/css/reset.css" rel="stylesheet">
+        <link href="/resources/css/styles.css" rel="stylesheet">
+        <title>{{ page_title }}</title>
+    </head>
+    <body>
+        <header>
+            <a href="/">THEMONSTROUSCAVALCA.DE</a>
+        </header>
+        <section class="content">
+            {% block extension %}{% endblock %}
+        </section>
+        <footer>
+            <p>Created using <a href="https://github.com/NeuralSandwich/stone">stone</a> by <a href="https://github.com/NeuralSandwich">NeuralSandwich</a></p>
+        </footer>
+    </body>
+</html>

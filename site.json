@@ -1,0 +1,24 @@
+{"sites": [
+    {
+        "root": "themonstrouscavalca",
+        "pages": [
+            {
+                "source": "pages/index.md",
+                "target": "output/index.html"
+            }
+        ],
+        "templates": [
+            "templates"
+        ],
+        "resources": [
+            {
+                "source": "resources/css/reset.css",
+                "target": "output/resources/css/reset.css"
+            },
+            {
+                "source": "resources/css/styles.css",
+                "target": "output/resources/css/styles.css"
+            }
+        ]
+    }
+]}
