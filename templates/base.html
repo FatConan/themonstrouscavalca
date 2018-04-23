@@ -9,10 +9,17 @@
     </head>
     <body>
         <header>
-            <a href="/">THEMONSTROUSCAVALCA.DE</a>
+            <ul class="nav-links">
+                <li class="home {%  if homepage %}hidden{% endif %}"><a href="/">THEMONSTROUSCAVALCA.DE</a></li>
+                <li class="twitter"><a href="http://twitter.com/fatconan">Twitter</a></li>
+                <li class="github"><a href="http://github.com/fatconan">Github</a></li>
+                <li class="bitbucket"><a href="http://bitbucket.com/fatconan">Bitbucket</a></li>
+            </ul>
         </header>
         <section class="content">
-            {% block extension %}{% endblock %}
+            <div class="inner {{ extended_classes }}">
+                {% block extension %}{% endblock %}
+            </div>
         </section>
         <footer>
             <p>Created using <a href="https://github.com/NeuralSandwich/stone">stone</a> by <a href="https://github.com/NeuralSandwich">NeuralSandwich</a></p>

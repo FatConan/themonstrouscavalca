@@ -5,6 +5,14 @@
             {
                 "source": "pages/index.md",
                 "target": "output/index.html"
+            },
+            {
+                "source": "pages/entries/index.md",
+                "target": "output/terrible-creations/index.html"
+            },
+            {
+                "source": "pages/blog/index.md",
+                "target": "output/ill-conceptions/index.html"
             }
         ],
         "templates": [
@@ -18,6 +26,11 @@
             {
                 "source": "resources/css/styles.css",
                 "target": "output/resources/css/styles.css"
+            },
+            {
+                "source": "resources/img",
+                "target": "output/resources/img",
+                "resource_type": "relocate"
             }
         ]
     }
