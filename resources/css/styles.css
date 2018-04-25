@@ -36,11 +36,18 @@ p, ul {
     border-left: 1px solid #010000; /*rgba(147,101,21,0.5);*/
     padding: 20px;
 }
+
+ul li{
+    margin-bottom: 2em;
+}
+
 a {
     font-family: "Alex Brush", cursive;
-    font-weight: normal;
-    font-size: 20pt;
-    color: #010000;
+    font-weight: bold;
+    font-size: 22pt;
+    color: #010000;  /*rgba(147,101,21,0.9);*/
+    /*-webkit-text-stroke: 2px rgba(147,101,21,0.5);
+    text-stroke: 2px rgba(147,101,21,0.5);*/
     text-decoration: none;
 }
 a:hover {
@@ -56,6 +63,7 @@ header {
 }
 
 ul.nav-links {
+    background: none;
     display: grid;
     grid-template-rows: 64px;
     grid-template-columns: 64px 64px 64px 64px;
@@ -83,7 +91,7 @@ ul.nav-links li a:hover{
     background-color: rgba(147,101,21,0.5);
 }
 ul.nav-links li.home a{
-    background-image: url(../img/icons/twitter.png);
+    background-image: url(../img/icons/home.png);
 }
 ul.nav-links li.twitter a{
     background-image: url(../img/icons/twitter.png);
