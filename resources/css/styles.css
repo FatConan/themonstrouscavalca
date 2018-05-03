@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 @import url('https://fonts.googleapis.com/css?family=Cardo');
 @import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+
 html {
     font-family: 'Cardo', serif;
     font-size: 15pt;
@@ -114,14 +115,19 @@ section.content div.inner {
     box-sizing: border-box;
     max-width: 1024px;
 }
+section.content.homepage{
+    background: url(../img/decor/werewolf-flipped.png) center left 30px no-repeat;
+}
 section.content div.inner.homepage{
-    background: url(../img/decor/werewolf.png) bottom 30px right no-repeat;
+    background: url(../img/decor/bottom-right.png) bottom 30px right no-repeat;
 }
 section.content div.inner.entries{
     background: url(../img/decor/sea-devil.png) bottom 30px right no-repeat;
     padding-bottom: 397px;
 }
-
+section.creations{
+    width: 65%;
+}
 footer {
     background: rgba(147,101,21,0.5);
     grid-column: 1;

@@ -19,9 +19,9 @@ Over the years the collection of [terrible creations](/terrible-creations) bolte
 * [EIHell](/terrible-creations/eihell) &mdash; A truly awful EIHL playoff odds predictor.
 
 ## Ill Conceptions
-Blog posts and the like coming soon
+Sometimes thoughts spill from the curator's mind like ooze from a spill pipe. On occasion he takes pleasure in capturing this goo in a specimen jar, and displaying alongside the other horrors in his twisted collection. These sickening examples can be browsed, at the risk of the reader, in the darkened corner of his circus forever known as the [blog](/ill-conceptions) 
 
 ## Hideous Entities
-* Twitter 
-* GitHub
-* BitBucket
+* [Twitter](https://twitter.com/fatconan) &mdash; Strange squawking voices can be heard emanating from a bore hole behind the old house. Frequently the curator scribbles down their screeched ramblings and records them here for posterity.
+* [GitHub](https://github.com/FatConan) &mdash; The circus tent can only hold so many freakish entities, and the curator's budget can only feed so many mouths, sometimes he has to ship his creations off to storage facilities like this. 
+* [BitBucket](https://bitbucket.org/fatconan/) &mdash; Or asylums like this.
