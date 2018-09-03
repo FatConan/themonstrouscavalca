@@ -31,6 +31,11 @@
                 "source": "resources/img",
                 "target": "output/resources/img",
                 "resource_type": "relocate"
+            },
+            {
+                "source": "resources/scripts",
+                "target": "output/resources/scripts",
+                "resource_type": "relocate"
             }
         ]
     }
