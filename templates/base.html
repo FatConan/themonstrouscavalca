@@ -9,12 +9,11 @@
         <title>{{ page_title }}</title>
     </head>
     <body>
-        <header>
+        <header class="{% if homepage %}homepage{%  else %}subpage{% endif %}">
             <ul class="nav-links">
                 <li class="home {%  if homepage %}hidden{% endif %}"><a href="/">THEMONSTROUSCAVALCA.DE</a></li>
                 <li class="twitter"><a href="http://twitter.com/fatconan">Twitter</a></li>
                 <li class="github"><a href="http://github.com/fatconan">Github</a></li>
-                <li class="bitbucket"><a href="http://bitbucket.com/fatconan">Bitbucket</a></li>
             </ul>
         </header>
         <section class="content {{ extended_classes }}">

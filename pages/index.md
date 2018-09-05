@@ -24,4 +24,3 @@ Sometimes thoughts spill from the curator's mind like ooze from a spill pipe. On
 ## Hideous Entities
 * [Twitter](https://twitter.com/fatconan) &mdash; Strange squawking voices can be heard emanating from a bore hole behind the old house. Frequently the curator scribbles down their screeched ramblings and records them here for posterity.
 * [GitHub](https://github.com/FatConan) &mdash; The circus tent can only hold so many freakish entities, and the curator's budget can only feed so many mouths, sometimes he has to ship his creations off to storage facilities like this. 
-* [BitBucket](https://bitbucket.org/fatconan/) &mdash; Or asylums like this.

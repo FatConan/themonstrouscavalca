@@ -1,8 +1,6 @@
 {   
-    "version": 1,
     "sites": [
     {
-        "site":"themonstrouscavalca.de",
         "root": "themonstrouscavalca",
         "pages": [
             {
