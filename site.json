@@ -1,18 +1,24 @@
-{"sites": [
+{   
+    "version": 1,
+    "sites": [
     {
+        "site":"themonstrouscavalca.de",
         "root": "themonstrouscavalca",
         "pages": [
             {
                 "source": "pages/index.md",
-                "target": "output/index.html"
+                "target": "output/index.html",
+                "page_type": "index"
             },
             {
                 "source": "pages/entries/index.md",
-                "target": "output/terrible-creations/index.html"
+                "target": "output/terrible-creations/index.html",
+                "page_type": "index"
             },
             {
                 "source": "pages/blog/index.md",
-                "target": "output/ill-conceptions/index.html"
+                "target": "output/ill-conceptions/index.html",
+                "page_type": "index"
             }
         ],
         "templates": [
