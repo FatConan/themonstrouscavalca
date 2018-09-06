@@ -5,12 +5,13 @@
 html {
     font-family: 'Cardo', serif;
     font-size: 15pt;
-    color: #010000;
+    color: #fff;
     background: url(../img/paper.jpg) top left repeat;
     background-size: cover;
 }
 
 body {
+    background: url(../img/cavalcade.jpg) top center no-repeat;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
@@ -56,20 +57,14 @@ a:hover {
 }
 
 header {
-    background: url(../img/cavalcade.jpg) top center no-repeat;
-    background-size: cover;
+   /* background: url(../img/cavalcade.jpg) top center no-repeat;
+    background-size: cover;*/
     grid-column: 1;
     grid-row: 1;
-    border-bottom: 1px solid #010000;
 }
 
-header.homepage{
-    height: 600px;
-}
-
-header.subpage{
-    height: 180px;
-    background: url(../img/cavalcade.jpg) bottom -600px center no-repeat;
+header.homepage, header.subpage{
+    height: 150px;
 }
 
 ul.nav-links {
@@ -120,8 +115,10 @@ ul.nav-links li.github a{
 section.content {
     grid-column: 1;
     grid-row: 2;
+    color: #fff;
 }
 section.content div.inner {
+    background-color: rgba(147, 101 , 21, 0.7);
     width: 75%;
     margin: 0 auto;
     padding: 30px 30px 50px;
@@ -132,10 +129,10 @@ section.content.homepage{
     background: url(../img/decor/werewolf-flipped.png) center left 30px no-repeat;
 }
 section.content div.inner.homepage{
-    background: url(../img/decor/bottom-right.png) bottom 30px right no-repeat;
+    background:  rgba(147, 101 , 21, 0.7) url(../img/decor/bottom-right.png) bottom 30px right no-repeat;
 }
 section.content div.inner.entries{
-    background: url(../img/decor/sea-devil.png) bottom 30px right no-repeat;
+    background: rgba(147, 101 , 21, 0.7) url(../img/decor/sea-devil.png) bottom 30px right no-repeat;
     padding-bottom: 397px;
 }
 section.creations{
