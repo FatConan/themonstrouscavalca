@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Alex+Brush');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Alex+Brush|Kenia');
 
 html {
     font-family: 'Open Sans', serif;
@@ -14,6 +14,7 @@ body {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     line-height: 1.5;
+    min-width: 600px;
 }
 
 .webp body{
@@ -29,9 +30,38 @@ h1 {
     font-size: 38pt;
     font-weight: bold;
     padding: 10px 0;
+    position: relative;
     border-bottom: 10px solid rgba(255,255,255,0.5);
     margin: 20px 0;
 }
+h1::before{
+    content:"";
+    display: block;
+    position: absolute;
+    top: -80px;
+    right: -15px;
+    width: 130px;
+    height: 130px;
+    background: url(../img/decor/seal3.png) center center no-repeat;
+    background-size: contain;
+    z-index:2;
+
+}
+h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 100px;
+    height: 300px;
+    border-right: 50px solid rgba(147, 101 , 21, 0.3);
+    border-left: 50px solid rgba(147, 101 , 21, 0.3);
+    border-bottom: 50px solid transparent;
+    top: -20px;
+    right: 0;
+    z-index: 1;
+}
+
 h2 {
     font-family: "Alex Brush", cursive;
     font-size: 26pt;
@@ -72,7 +102,7 @@ ul.nav-links {
     display: grid;
     grid-template-rows: 64px;
     grid-template-columns: 64px 64px 64px;
-    grid-gap: 5px;
+    grid-gap: 10px;
     border-left: none;
     position: fixed;
     margin: 20px;
@@ -85,7 +115,6 @@ ul.nav-links li.hidden {
     visibility: hidden;
 }
 ul.nav-links li a {
-    border: 1px solid rgba(255,255,255,0.5);
     display: block;
     height: 64px;
     width: 64px;
@@ -95,19 +124,21 @@ ul.nav-links li a {
     background-repeat: no-repeat;
     box-shadow: 0 0 20px #000 inset;
     box-sizing: border-box;
-    background-color: rgba(147, 101 , 21, 0.2);
+    background-color: transparent;
+    background-size: 54px 54px;
+    transition: background-color 0.5s;
 }
 ul.nav-links li a:hover{
-    background-color: rgba(147,101,21,0.5);
+    background-color: rgba(147,101,21,0.6);
 }
 ul.nav-links li.home a{
-    background-image: url(../img/icons/home.png);
+    background-image: url(../img/icons/keep.svg);
 }
 ul.nav-links li.twitter a{
-    background-image: url(../img/icons/twitter.png);
+    background-image: url(../img/icons/crow.svg);
 }
 ul.nav-links li.github a{
-    background-image: url(../img/icons/github.png);
+    background-image: url(../img/icons/github.svg);
 }
 
 section.content {
@@ -125,6 +156,18 @@ section.content div.inner {
     box-sizing: border-box;
     max-width: 1024px;
     box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
+}
+
+.cms p:first-of-type::first-letter {
+    float: left;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(147, 101 , 21, 0.3);
+    font-family: "Kenia", cursive;
+    font-size: 75px;
+    line-height: 60px;
+    padding: 14px 4px 4px;
+    margin-right: 4px;
+
 }
 
 .no-webp section.content div.inner {
@@ -164,9 +207,3 @@ footer p {
 }
 
 
-.creatures ul {
-    background: url(../img/decor/werewolf.png) bottom 40px right no-repeat;
-    padding-right: 240px;
-    padding-bottom: 50px;
-    box-sizing: border-box;
-}
