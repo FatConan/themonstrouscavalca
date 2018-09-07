@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: #fff url(../img/cavalcade.jpg) top center no-repeat;
+    background: #fff url(../img/cavalcade2.webp) top center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -113,7 +113,8 @@ section.content {
 }
 section.content div.inner {
     position: relative;
-    background: transparent url(../img/paper.jpg) top left repeat;
+    background: transparent url(../img/paper2.webp) top left repeat;
+    background-size: cover;
     width: 75%;
     margin: 0 auto;
     padding: 30px 30px 50px;
@@ -138,7 +139,7 @@ section.creations{
     width: 65%;
 }
 footer {
-    background: url(../img/paper.jpg) top left repeat;
+    background: url(../img/paper2.webp) top left repeat;
     width: 75%;
     max-width: 1024px;
     margin: 0 auto 50px;
