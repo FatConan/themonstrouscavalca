@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: #fff url(../img/cavalcade2.webp) top center no-repeat;
+    background: #fff url(../img/cavalcade2.jpg) top center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -15,6 +15,11 @@ body {
     grid-template-rows: auto auto;
     line-height: 1.5;
 }
+
+.webp body{
+    background-image: url(../img/cavalcade2.webp);
+}
+
 strong{
     font-weight: bold;
 }
@@ -66,12 +71,13 @@ ul.nav-links {
     background: none;
     display: grid;
     grid-template-rows: 64px;
-    grid-template-columns: 64px 64px 64px 64px;
+    grid-template-columns: 64px 64px 64px;
     grid-gap: 5px;
     border-left: none;
+    position: fixed;
     margin: 20px;
-    float: right;
 }
+
 ul.nav-links li {
     grid-row: 1;
 }
@@ -100,9 +106,6 @@ ul.nav-links li.home a{
 ul.nav-links li.twitter a{
     background-image: url(../img/icons/twitter.png);
 }
-ul.nav-links li.bitbucket a{
-    background-image: url(../img/icons/bitbucket.png);
-}
 ul.nav-links li.github a{
     background-image: url(../img/icons/github.png);
 }
@@ -113,7 +116,7 @@ section.content {
 }
 section.content div.inner {
     position: relative;
-    background: transparent url(../img/paper2.webp) top left repeat;
+    background: transparent url(../img/paper2.jpg) top left repeat;
     background-size: cover;
     width: 75%;
     margin: 0 auto;
@@ -123,6 +126,11 @@ section.content div.inner {
     max-width: 1024px;
     box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
 }
+
+.no-webp section.content div.inner {
+    background-image: url(../img/paper2.webp);
+}
+
 section.content div.inner::after{
     content: "";
     height: 100px;
@@ -132,14 +140,11 @@ section.content div.inner::after{
     bottom: 10px;
     right: 10px;
 }
-section.content div.inner.entries{
-    padding-bottom: 397px;
-}
 section.creations{
     width: 65%;
 }
 footer {
-    background: url(../img/paper2.webp) top left repeat;
+    background: url(../img/paper2.jpg) top left repeat;
     width: 75%;
     max-width: 1024px;
     margin: 0 auto 50px;
@@ -148,7 +153,20 @@ footer {
     box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
 }
 
+.webp footer {
+    background-image: url(../img/paper2.webp);
+}
+
+
 footer p {
     color: #fff;
     border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+
+.creatures ul {
+    background: url(../img/decor/werewolf.png) bottom 40px right no-repeat;
+    padding-right: 240px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
 }
