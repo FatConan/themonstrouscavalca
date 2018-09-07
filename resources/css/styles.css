@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
-@import url('https://fonts.googleapis.com/css?family=Cardo');
-@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Alex+Brush');
 
 html {
-    font-family: 'Cardo', serif;
+    font-family: 'Open Sans', serif;
     font-size: 15pt;
-    color: #fff;
-    background: url(../img/paper.jpg) top left repeat;
-    background-size: cover;
+    color: #111;
 }
 
 body {
-    background: url(../img/cavalcade.jpg) top center no-repeat;
+    background: #fff url(../img/cavalcade.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     line-height: 1.5;
 }
 strong{
@@ -24,8 +22,9 @@ strong{
 h1 {
     font-family: "Alex Brush", cursive;
     font-size: 38pt;
+    font-weight: bold;
     padding: 10px 0;
-    border-bottom: 10px solid rgba(147,101,21,0.5);
+    border-bottom: 10px solid rgba(255,255,255,0.5);
     margin: 20px 0;
 }
 h2 {
@@ -35,7 +34,7 @@ h2 {
     margin: 20px 0;
 }
 p, ul {
-    border-left: 1px solid #010000; /*rgba(147,101,21,0.5);*/
+    border-left: 1px solid rgba(255,255,255,0.5);
     padding: 20px;
 }
 
@@ -46,10 +45,8 @@ ul li{
 a {
     font-family: "Alex Brush", cursive;
     font-weight: bold;
-    font-size: 22pt;
-    color: #010000;  /*rgba(147,101,21,0.9);*/
-    /*-webkit-text-stroke: 2px rgba(147,101,21,0.5);
-    text-stroke: 2px rgba(147,101,21,0.5);*/
+    font-size: 24pt;
+    color: #000;
     text-decoration: none;
 }
 a:hover {
@@ -57,8 +54,6 @@ a:hover {
 }
 
 header {
-   /* background: url(../img/cavalcade.jpg) top center no-repeat;
-    background-size: cover;*/
     grid-column: 1;
     grid-row: 1;
 }
@@ -84,7 +79,7 @@ ul.nav-links li.hidden {
     visibility: hidden;
 }
 ul.nav-links li a {
-    border: 1px solid #010000;
+    border: 1px solid rgba(255,255,255,0.5);
     display: block;
     height: 64px;
     width: 64px;
@@ -92,7 +87,7 @@ ul.nav-links li a {
     overflow: hidden;
     background-position: center center;
     background-repeat: no-repeat;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0 0 20px #000 inset;
     box-sizing: border-box;
     background-color: rgba(147, 101 , 21, 0.2);
 }
@@ -115,31 +110,44 @@ ul.nav-links li.github a{
 section.content {
     grid-column: 1;
     grid-row: 2;
-    color: #fff;
 }
 section.content div.inner {
-    background-color: rgba(147, 101 , 21, 0.7);
+    position: relative;
+    background: transparent url(../img/paper.jpg) top left repeat;
     width: 75%;
     margin: 0 auto;
     padding: 30px 30px 50px;
+    margin-bottom: 30px;
     box-sizing: border-box;
     max-width: 1024px;
+    box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
 }
-section.content.homepage{
-    background: url(../img/decor/werewolf-flipped.png) center left 30px no-repeat;
-}
-section.content div.inner.homepage{
-    background:  rgba(147, 101 , 21, 0.7) url(../img/decor/bottom-right.png) bottom 30px right no-repeat;
+section.content div.inner::after{
+    content: "";
+    height: 100px;
+    width: 100px;
+    background: url(../img/decor/bottom-right.png) bottom right no-repeat;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 section.content div.inner.entries{
-    background: rgba(147, 101 , 21, 0.7) url(../img/decor/sea-devil.png) bottom 30px right no-repeat;
     padding-bottom: 397px;
 }
 section.creations{
     width: 65%;
 }
 footer {
-    background: rgba(147,101,21,0.5);
-    grid-column: 1;
-    grid-row: 3;
+    background: url(../img/paper.jpg) top left repeat;
+    width: 75%;
+    max-width: 1024px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
+}
+
+footer p {
+    color: #fff;
+    border-left: 1px solid rgba(255,255,255,0.5);
 }
