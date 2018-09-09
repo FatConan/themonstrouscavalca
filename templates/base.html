@@ -2,29 +2,32 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
         <link href="/resources/css/reset.css" rel="stylesheet">
-        <link href="/resources/css/styles.css" rel="stylesheet">
-        <script type="text/javascript" data-main="/resources/scripts/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+        {%  block head_replacements %}
+            <link href="/resources/css/styles.css" rel="stylesheet">
+            <script type="text/javascript" data-main="/resources/scripts/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+        {%  endblock %}
         <title>{{ page_title }}</title>
     </head>
     <body>
-        <header class="{% if homepage %}homepage{%  else %}subpage{% endif %}">
-            <ul class="nav-links">
-                <li class="twitter"><a href="http://twitter.com/fatconan" title="Twitter">Twitter</a></li>
-                <li class="github"><a href="http://github.com/fatconan" title="Github">Github</a></li>
-                <li class="home {%  if homepage %}hidden{% endif %}"><a href="/" title="THEMONSTROUSCAVALCA.DE">THEMONSTROUSCAVALCA.DE</a></li>
-            </ul>
-        </header>
-        <section class="content {{ extended_classes }}">
-            <div class="inner {{ extended_classes }}">
-                <div class="cms">
-                     {% block extension %}{% endblock %}
+        <div class="body-wrapper">
+            <header class="{% if homepage %}homepage{%  else %}subpage{% endif %}">
+                <ul class="nav-links">
+                    <li class="twitter"><a href="http://twitter.com/fatconan" title="Twitter">Twitter</a></li>
+                    <li class="github"><a href="http://github.com/fatconan" title="Github">Github</a></li>
+                    <li class="home {%  if homepage %}hidden{% endif %}"><a href="/" title="Return to the Cavalcade">THEMONSTROUSCAVALCA.DE</a></li>
+                </ul>
+            </header>
+            <section class="content {{ extended_classes }}">
+                <div class="inner {{ extended_classes }}">
+                    <div class="cms">
+                         {% block extension %}{% endblock %}
+                    </div>
                 </div>
-            </div>
-            <footer>
-                <p>Created using <a href="https://github.com/NeuralSandwich/stone">stone</a> by <a href="https://github.com/NeuralSandwich">NeuralSandwich</a></p>
-            </footer>
-        </section>
+                <footer>
+                    <p>Created using <a href="https://github.com/NeuralSandwich/stone">stone</a> by <a href="https://github.com/NeuralSandwich">NeuralSandwich</a></p>
+                </footer>
+            </section>
+        </div>
     </body>
 </html>

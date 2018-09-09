@@ -5,18 +5,39 @@
         "pages": [
             {
                 "source": "pages/index.md",
-                "target": "output/index.html",
-                "page_type": "index"
+                "target": "output/index.html"
             },
             {
                 "source": "pages/entries/index.md",
-                "target": "output/terrible-creations/index.html",
-                "page_type": "index"
+                "target": "output/terrible-creations/index.html"
+            },
+            {
+                "source": "pages/entries/dbaser.md",
+                "target": "output/terrible-creations/dbaser.html"
+            },
+            {
+                "source": "pages/entries/podswamp.md",
+                "target": "output/terrible-creations/podswamp.html"
+            },
+            {
+                "source": "pages/entries/formic-aside.md",
+                "target": "output/terrible-creations/formic-aside.html"
+            },
+            {
+                "source": "pages/entries/eihell.md",
+                "target": "output/terrible-creations/eihell.html"
             },
             {
                 "source": "pages/blog/index.md",
-                "target": "output/ill-conceptions/index.html",
-                "page_type": "index"
+                "target": "output/ill-conceptions/index.html"
+            },
+            {
+                "source": "pages/about/index.md",
+                "target": "output/the-curator/index.html"
+            },
+            {
+                "source": "pages/about/cv.md",
+                "target": "output/the-curator/cv.html"
             }
         ],
         "templates": [
