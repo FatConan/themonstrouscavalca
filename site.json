@@ -38,6 +38,10 @@
             {
                 "source": "pages/about/cv.md",
                 "target": "output/the-curator/cv.html"
+            },
+            {
+                "source": "pages/errors/404.md",
+                "target": "output/404.shtml"
             }
         ],
         "templates": [
