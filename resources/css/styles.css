@@ -199,17 +199,6 @@ section.content div.inner {
     margin-right: 4px;
 }
 
-/*.cms blockquote  p:first-of-type::first-letter {
-    float: none;
-    color: #111;
-    background-color: transparent;
-    font-family: "Open Sans", san-serif;
-    font-size: 15pt;
-    line-height: 1.5;
-    padding: 0;
-    margin-right: 0;
-}*/
-
 .cms blockquote {
     font-size: 20pt;
     color: rgba(255,255,255,0.5);;
@@ -218,6 +207,7 @@ section.content div.inner {
     background-color: rgba(147, 101 , 21, 0.3);
     position: relative;
 }
+
 .cms blockquote::before{
     content: "“";
     top: -10px;
@@ -249,10 +239,6 @@ section.content div.inner {
 .cms p {
     line-height: 1.5;
 }
-
-/*.cms a.anchor {
-    display: none;
-}*/
 
 .no-webp section.content div.inner {
     background-image: url(../img/paper2.webp);
