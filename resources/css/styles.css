@@ -34,6 +34,172 @@ strong{
     font-weight: bold;
 }
 
+a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+header.homepage, header.subpage{
+    height: 150px;
+}
+
+ul.nav-links {
+    background: none;
+    display: grid;
+    grid-template-rows:  64px;
+    grid-template-columns: 64px 64px;
+    grid-gap: 10px;
+    border-left: none;
+    position: fixed;
+    margin: 20px;
+    top: 0;
+    right: 0;
+}
+
+
+ul.nav-links li a {
+    display: block;
+    height: 64px;
+    width: 64px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px #000 inset;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-size: 54px 54px;
+    transition: background-color 0.5s;
+}
+
+ul.nav-links li a:hover{
+    background-color: rgba(0,0,0, 0.9);
+}
+
+ul.nav-links li.twitter a{
+    background-image: url(../img/icons/crow.svg);
+    grid-row : 1;
+}
+
+ul.nav-links li.github a{
+    background-image: url(../img/icons/github.svg);
+    grid-row: 1;
+}
+
+div.home {
+    height: 200px;
+    width: 128px;
+    background: transparent;
+    top: 150px;
+    left: 0;
+    position: fixed;
+}
+
+div.home div.inner {
+    box-sizing: border-box;
+    height: 150px;
+    width: 128px;
+    position: relative;
+    top: 150px;
+    left: -64px;
+    transition: left 0.5s;
+}
+
+div.home:hover div.inner{
+    left: 0px;
+}
+
+div.home a{
+    display: block;
+    border-top: 75px solid rgba(0, 0 , 0, 0.5);
+    border-bottom: 75px solid rgba(0, 0 , 0, 0.5);
+    border-right: 64px solid transparent;
+    height: 100%;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    overflow: hidden;
+    position:relative;
+}
+
+div.home a::before{
+    display: block;
+    background: pink;
+    content: "HOME";
+    position: absolute;
+    height: 64px;
+    width: 150px;
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-indent: 0;
+}
+
+section.content {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+section.content div.inner {
+    position: relative;
+    background: transparent url(../img/paper2.jpg) top left repeat;
+    background-size: cover;
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px 30px 50px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    max-width: 1024px;
+    box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
+}
+
+.no-webp section.content div.inner {
+    background-image: url(../img/paper2.webp);
+}
+
+section.content div.inner::after{
+    content: "";
+    height: 100px;
+    width: 100px;
+    background: url(../img/decor/bottom-right.png) bottom right no-repeat;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+section.creations{
+    width: 65%;
+}
+
+footer {
+    background: url(../img/paper2.jpg) top left repeat;
+    width: 75%;
+    max-width: 1024px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
+}
+
+.webp footer {
+    background-image: url(../img/paper2.webp);
+}
+
+footer p {
+    color: #fff;
+    border-left: 1px solid rgba(255,255,255,0.5);
+    padding: 10px 20px;
+}
+
+/* CMS Styling */
 .cms h1{
     font-size: 42pt;
     font-weight: bold;
@@ -42,6 +208,7 @@ strong{
     border-bottom: 10px solid rgba(255,255,255,0.5);
     margin: 20px 0;
 }
+
 .cms h1::before{
     content:"";
     display: block;
@@ -100,6 +267,7 @@ strong{
     border-left: 10px solid rgba(147, 101 , 21, 0.3);
     padding-left: 20px;
 }
+
 .cms ul li:last-child{
     margin-bottom: 0;
 }
@@ -107,85 +275,6 @@ strong{
 .cms .redacted{
     background: rgba(0, 0, 0, 0.5);
     color: transparent;
-}
-
-a {
-    font-weight: bold;
-    color: #000;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-header {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-header.homepage, header.subpage{
-    height: 150px;
-}
-
-ul.nav-links {
-    background: none;
-    display: grid;
-    grid-template-rows: 64px;
-    grid-template-columns: 64px 64px 64px;
-    grid-gap: 10px;
-    border-left: none;
-    position: fixed;
-    margin: 20px;
-}
-
-ul.nav-links li {
-    grid-row: 1;
-}
-ul.nav-links li.hidden {
-    visibility: hidden;
-}
-ul.nav-links li a {
-    display: block;
-    height: 64px;
-    width: 64px;
-    text-indent: -9999px;
-    overflow: hidden;
-    background-position: center center;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 20px #000 inset;
-    box-sizing: border-box;
-    background-color: transparent;
-    background-size: 54px 54px;
-    transition: background-color 0.5s;
-}
-ul.nav-links li a:hover{
-    background-color: rgba(0,0,0, 0.9);
-}
-ul.nav-links li.home a{
-    background-image: url(../img/icons/keep.svg);
-}
-ul.nav-links li.twitter a{
-    background-image: url(../img/icons/crow.svg);
-}
-ul.nav-links li.github a{
-    background-image: url(../img/icons/github.svg);
-}
-
-section.content {
-    grid-column: 1;
-    grid-row: 2;
-}
-section.content div.inner {
-    position: relative;
-    background: transparent url(../img/paper2.jpg) top left repeat;
-    background-size: cover;
-    width: 75%;
-    margin: 0 auto;
-    padding: 30px 30px 50px;
-    margin-bottom: 30px;
-    box-sizing: border-box;
-    max-width: 1024px;
-    box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
 }
 
 .cms>p:first-of-type::first-letter {
@@ -240,41 +329,6 @@ section.content div.inner {
     line-height: 1.5;
 }
 
-.no-webp section.content div.inner {
-    background-image: url(../img/paper2.webp);
-}
 
-section.content div.inner::after{
-    content: "";
-    height: 100px;
-    width: 100px;
-    background: url(../img/decor/bottom-right.png) bottom right no-repeat;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-section.creations{
-    width: 65%;
-}
-footer {
-    background: url(../img/paper2.jpg) top left repeat;
-    width: 75%;
-    max-width: 1024px;
-    margin: 0 auto 50px;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
-}
-
-.webp footer {
-    background-image: url(../img/paper2.webp);
-}
-
-
-footer p {
-    color: #fff;
-    border-left: 1px solid rgba(255,255,255,0.5);
-    padding: 10px 20px;
-}
 
 
