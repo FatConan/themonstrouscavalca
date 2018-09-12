@@ -17,11 +17,9 @@
                     <li class="twitter"><a href="http://twitter.com/fatconan" title="Twitter">Twitter</a></li>
                     <li class="github"><a href="http://github.com/fatconan" title="Github">Github</a></li>
                 </ul>
-               <div class="home {%  if homepage %}hidden{% endif %}">
-                   <div class="inner"><a href="/">Back to the beginning</a></div>
-               </div>
             </header>
             <section class="content {{ extended_classes }}">
+                <a class="home {% if homepage %}hidden{% endif %}" title="Back to the beginning" href="/"><span>Go back!</span></a>
                 <div class="inner {{ extended_classes }}">
                     <div class="cms">
                          {% block extension %}{% endblock %}
