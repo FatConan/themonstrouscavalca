@@ -24,3 +24,9 @@ Sometimes thoughts drip from the curator's mind like ooze from a spill pipe. On 
 ## Hideous Entities
 * [Twitter](https://twitter.com/fatconan) &mdash; Strange squawking voices can be heard emanating from a bore hole behind the old house. Frequently the curator scribbles down their screeched ramblings and records them here for posterity.
 * [GitHub](https://github.com/FatConan) &mdash; The circus tent can only hold so many freakish entities, and the curator's budget can only feed so many mouths, sometimes he has to ship his creations off to storage facilities like this. 
+
+## Diamonds in the Rough
+Not everything in the cavalcade is a hideous monstrosity. There are some members that are quite the opposite, in fact, including:
+
+* [Agnieszka](http://jerzewska.pl) &mdash; the curator's wonderful partner &amp;
+* [Leeloo](https://www.instagram.com/leeloo.the.foxdog/) &mdash; their trusty hound.
