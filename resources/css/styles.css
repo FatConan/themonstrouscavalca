@@ -123,29 +123,20 @@ a.home:hover{
     text-decoration: none;
 }
 a.home span{
+    background: transparent url(../img/decor/cavalacade2.svg) left -50px top 50px no-repeat;
+    background-size: 300px 300px;
     display: block;
     padding: 10px;
-    color: rgba(0,0,0,0.5);
+    width: 300px;
+    height: 450px;
+    color: #000;
     font-size: 22pt;
     font-weight: bold;
     text-align: left;
-}
-/*a.home::before{
     box-sizing: border-box;
-    content: "";
-    height: 100px;
-    top: 0;
-    left: -50px;
-    position: absolute;
-    border-top: 75px solid rgba(0, 0, 0, 0.4);
-    border-bottom: 75px solid rgba(0, 0, 0, 0.4);
-    border-left: 50px solid transparent;
-    transition: border-top-color 0.5s, border-bottom-color 0.5s;
+    opacity: 0.5;
 }
-a.home:hover::before{
-    border-top-color: rgba(0,0,0,1);
-    border-bottom-color: rgba(0,0,0,1);
-}*/
+
 
 section.content {
     margin: 0 auto;
