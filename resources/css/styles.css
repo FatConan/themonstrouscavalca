@@ -94,6 +94,7 @@ ul.nav-links li.github a{
     background-image: url(../img/icons/github.svg);
     grid-row: 1;
 }
+
 a.home.hidden{
     display: none;
 }
@@ -105,7 +106,6 @@ a.home{
     background-size: cover;
     display: block;
     box-sizing: border-box;
-    padding: 5px;
     width: 300px;
     height: 450px;
     cursor: pointer;
@@ -136,7 +136,6 @@ a.home span{
     box-sizing: border-box;
     opacity: 0.5;
 }
-
 
 section.content {
     margin: 0 auto;
@@ -323,7 +322,34 @@ footer p {
 .cms p {
     line-height: 1.5;
 }
+.cms code{
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 20pt;
+    color: rgba(255,255,255,0.5);;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: rgba(147, 101 , 21, 0.3);
+}
 
 
+.garderobe .cms blockquote{
+    background-image: url(../img/icons/crow.svg);
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center left 30px;
+    padding-left: 100px;
+}
+.garderobe .cms blockquote a{
+    display: block;
+    font-family: "Open Sans", san-serif;
+    font-size: 12pt;
+}
 
-
+.garderobe .cms blockquote a::before{
+    content:"[ ";
+}
+.garderobe .cms blockquote a::after{
+    content:" » ]";
+}

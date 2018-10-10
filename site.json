@@ -32,6 +32,14 @@
                 "target": "output/ill-conceptions/index.html"
             },
             {
+                "source": "pages/blog/the-garderobe/index.md",
+                "target": "output/ill-conceptions/the-garderobe/index.html"
+            },
+            {
+                "source": "pages/blog/the-garderobe/burt-reynolds.md",
+                "target": "output/ill-conceptions/the-garderobe/burt-reynolds.html"
+            },
+            {
                 "source": "pages/about/index.md",
                 "target": "output/the-curator/index.html"
             },
