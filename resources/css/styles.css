@@ -343,8 +343,10 @@ footer p {
 }
 .garderobe .cms blockquote a{
     display: block;
-    font-family: "Open Sans", san-serif;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.6);
     font-size: 12pt;
+    padding-top: 20px;
 }
 
 .garderobe .cms blockquote a::before{

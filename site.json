@@ -40,6 +40,10 @@
                 "target": "output/ill-conceptions/the-garderobe/burt-reynolds.html"
             },
             {
+                "source": "pages/blog/the-garderobe/maverick-agents.md",
+                "target": "output/ill-conceptions/the-garderobe/maverick-agents.html"
+            },
+            {
                 "source": "pages/about/index.md",
                 "target": "output/the-curator/index.html"
             },

@@ -1,5 +1,5 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On the death of Burt Reynolds
-template: page.html
+template: garderobe.html
 extended_classes: garderobe
 
 # On the death of Burt Reynolds
