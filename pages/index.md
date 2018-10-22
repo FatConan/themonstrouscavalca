@@ -16,7 +16,6 @@ Over the years the collection of [terrible creations](/terrible-creations) bolte
 * [Podswamp Examples](/terrible-creations/podswamp.html#todays-putrid-catch) &mdash; From the fetid swamp come the ghouls. Witness a demonstration of the Podswamp's horrific abilities.
 * [DBaser](/terrible-creations/dbaser.html) &mdash; A disgusting collection of database tools for the abomination that is Java. It'll help you query your database and scrape whatever gunk is resting there into your Petri dish (metaphorically speaking).
 * [Formic Aside](/terrible-creations/formic-aside.html) &mdash; A horde of tools for performing form validation in Java. It may also be layered atop the DBaser project, in a truly heinous strata.
-* [EIHell](/terrible-creations/eihell.html) &mdash; A truly despicable EIHL playoff odds predictor.
 
 ## Ill Conceptions
 Sometimes thoughts drip from the curator's mind like ooze from a spill pipe. On occasion he takes pleasure in capturing this goo in a specimen jar, and displaying alongside the other horrors in his twisted collection. These sickening examples can be browsed, at the risk of the reader, in the darkened corner of this twisted circus forever known as the [blog](/ill-conceptions). 

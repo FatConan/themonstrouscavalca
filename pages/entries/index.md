@@ -13,4 +13,3 @@ infernal squabbling in the pit.
 * [Podswamp Examples](/terrible-creations/podswamp.html#todays-putrid-catch) &mdash; From the fetid swamp come the ghouls. Witness a demonstration of the Podswamp's horrific abilities.
 * [DBaser](/terrible-creations/dbaser.html) &mdash; A disgusting collection of database tools for the abomination that is Java. It'll help you query your database and scrape whatever gunk is resting there into your Petri dish (metaphorically speaking).
 * [Formic Aside](/terrible-creations/formic-aside.html) &mdash; A horde of tools for performing form validation in Java. It may also be layered atop the DBaser project, in a truly heinous strata.
-* [EIHell](/terrible-creations/eihell.html) &mdash; A truly despicable EIHL playoff odds predictor.

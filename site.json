@@ -48,6 +48,10 @@
                 "target": "output/ill-conceptions/the-garderobe/maverick-agents.html"
             },
             {
+                "source": "pages/blog/the-garderobe/the-move.md",
+                "target": "output/ill-conceptions/the-garderobe/the-move.html"
+            },
+            {
                 "source": "pages/about/index.md",
                 "target": "output/the-curator/index.html"
             },
