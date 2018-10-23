@@ -52,6 +52,10 @@
                 "target": "output/ill-conceptions/the-garderobe/the-move.html"
             },
             {
+                "source": "pages/blog/the-garderobe/rasslers.md",
+                "target": "output/ill-conceptions/the-garderobe/rasslers.html"
+            },
+            {
                 "source": "pages/about/index.md",
                 "target": "output/the-curator/index.html"
             },
