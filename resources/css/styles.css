@@ -333,8 +333,8 @@ footer p {
     background-color: rgba(147, 101 , 21, 0.3);
 }
 
-
 .garderobe .cms blockquote{
+    color: #fff;
     background-image: url(../img/icons/crow.svg);
     background-size: 64px 64px;
     background-repeat: no-repeat;
