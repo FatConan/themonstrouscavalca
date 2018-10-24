@@ -1,11 +1,11 @@
-page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On the death of Burt Reynolds
+page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On the wrestling arts
 template: garderobe.html
 extended_classes: garderobe
 
 # On the wrestling arts
 
-The entirety of my knowledge of wrestling comes from playing <em>Royal Rumble</em> on the Megadrive as a kid. My introduction to 
-Hulk Hogan, Jim "Sawmill" Duggan and The Undertaker came in the form of their slightly greasy looking 16-bit sprites dashing around the screen, being
+The entirety of my knowledge of wrestling comes from playing <em>Royal Rumble</em> on the Megadrive. My introduction to 
+Hulk Hogan, Jim Duggan and The Undertaker came in the form of their slightly greasy looking 16-bit sprites dashing around the screen, being
 satisfyingly clobbered by 16-bit folding chairs. What sticks in my memory about those wrestlers is that they all seemed to have basically the same animations, but
 each was given a signature move that was really only distinguished by the name it was given in the game manual.
 

@@ -56,6 +56,10 @@
                 "target": "output/ill-conceptions/the-garderobe/rasslers.html"
             },
             {
+                "source": "pages/blog/the-garderobe/programming.md",
+                "target": "output/ill-conceptions/the-garderobe/programming.html"
+            },
+            {
                 "source": "pages/about/index.md",
                 "target": "output/the-curator/index.html"
             },
