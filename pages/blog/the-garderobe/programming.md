@@ -4,7 +4,7 @@ extended_classes: garderobe
 
 # On agile-development
 
-I don't rewrite many patter songs in my timeline, which is probably for the best, but I really don't think this isn't a bad fist of
+I don't rewrite many patter songs in my timeline, which is probably for the best, but I really don't think this is a bad fist of
 some mock Gilbert &amp; Sullivan. In fact I'd say it's sufficiently good to be easily up there with such reworked greats as that "Love is all around us" cover from 
 <em>Love Actually</em>, the Diana version of Candle in the Wind, and that new Tommy Robinson themed version of Hallelujah.
 
