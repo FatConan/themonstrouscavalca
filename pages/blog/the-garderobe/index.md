@@ -1,6 +1,6 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe
 template: page.html
-extended_classes: blog
+extended_classes: blog garderobe-index
 
 # The Garderobe
 
@@ -22,3 +22,4 @@ in the hope they might one day provide a warning of the onset of some mental dis
 * [On the move](/ill-conceptions/the-garderobe/the-move.html)
 * [On the wrestling arts](/ill-conceptions/the-garderobe/rasslers.html)
 * [On agile development](/ill-conceptions/the-garderobe/programming.html)
+

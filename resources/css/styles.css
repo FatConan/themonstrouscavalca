@@ -355,3 +355,26 @@ footer p {
 .garderobe .cms blockquote a::after{
     content:" » ]";
 }
+
+.garderobe-index ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border: none;
+}
+.garderobe-index ul li{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.garderobe-index ul a{
+    display: block;
+    border-left: 10px solid rgba(147, 101 , 21, 0.3);
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.garderobe-index ul a:hover{
+    background: rgba(255, 255,255,0.5);
+    border-left: 10px solid rgba(147, 101 , 21, 0.6);
+}
+
