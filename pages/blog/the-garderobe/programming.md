@@ -2,7 +2,7 @@ page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On agile development
 template: garderobe.html
 extended_classes: garderobe
 
-# On agile-development
+# On agile development
 
 I don't rewrite many patter songs in my timeline, which is probably for the best, but I really don't think this is a bad fist of
 some mock Gilbert &amp; Sullivan. In fact I'd say it's sufficiently good to be easily up there with such reworked greats as that "Love is all around us" cover from 
