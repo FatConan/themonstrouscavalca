@@ -8,56 +8,16 @@
                 "target": "output/index.html"
             },
             {
-                "source": "pages/entries/index.md",
-                "target": "output/terrible-creations/index.html"
+                "source": "pages/entries/*.md",
+                "target": "output/terrible-creations/*.html"
             },
             {
-                "source": "pages/entries/dbaser.md",
-                "target": "output/terrible-creations/dbaser.html"
+                "source": "pages/blog/*.md",
+                "target": "output/ill-conceptions/*.html"
             },
             {
-                "source": "pages/entries/podswamp.md",
-                "target": "output/terrible-creations/podswamp.html"
-            },
-            {
-                "source": "pages/entries/formic-aside.md",
-                "target": "output/terrible-creations/formic-aside.html"
-            },
-            {
-                "source": "pages/entries/eihell.md",
-                "target": "output/terrible-creations/eihell.html"
-            },
-            {
-                "source": "pages/blog/index.md",
-                "target": "output/ill-conceptions/index.html"
-            },
-            {
-                "source": "pages/blog/the-garderobe/index.md",
-                "target": "output/ill-conceptions/the-garderobe/index.html"
-            },
-            {
-                "source": "pages/blog/the-garderobe/burt-reynolds.md",
-                "target": "output/ill-conceptions/the-garderobe/burt-reynolds.html"
-            },
-            {
-                "source": "pages/blog/the-garderobe/laymans-terms.md",
-                "target": "output/ill-conceptions/the-garderobe/laymans-terms.html"
-            },
-            {
-                "source": "pages/blog/the-garderobe/maverick-agents.md",
-                "target": "output/ill-conceptions/the-garderobe/maverick-agents.html"
-            },
-            {
-                "source": "pages/blog/the-garderobe/the-move.md",
-                "target": "output/ill-conceptions/the-garderobe/the-move.html"
-            },
-            {
-                "source": "pages/blog/the-garderobe/rasslers.md",
-                "target": "output/ill-conceptions/the-garderobe/rasslers.html"
-            },
-            {
-                "source": "pages/blog/the-garderobe/programming.md",
-                "target": "output/ill-conceptions/the-garderobe/programming.html"
+                "source": "pages/blog/the-garderobe/*.md",
+                "target": "output/ill-conceptions/the-garderobe/*.html"
             },
             {
                 "source": "pages/about/index.md",
