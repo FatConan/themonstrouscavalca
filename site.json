@@ -5,31 +5,31 @@
         "pages": [
             {
                 "source": "pages/index.md",
-                "target": "output/index.html"
+                "target": "./index.html"
             },
             {
                 "source": "pages/entries/*.md",
-                "target": "output/terrible-creations/*.html"
+                "target": "./terrible-creations/*.html"
             },
             {
                 "source": "pages/blog/*.md",
-                "target": "output/ill-conceptions/*.html"
+                "target": "./ill-conceptions/*.html"
             },
             {
                 "source": "pages/blog/the-garderobe/*.md",
-                "target": "output/ill-conceptions/the-garderobe/*.html"
+                "target": "./ill-conceptions/the-garderobe/*.html"
             },
             {
                 "source": "pages/about/index.md",
-                "target": "output/the-curator/index.html"
+                "target": "./the-curator/index.html"
             },
             {
                 "source": "pages/about/cv.md",
-                "target": "output/the-curator/cv.html"
+                "target": "./the-curator/cv.html"
             },
             {
-                "source": "pages/errors/404.md",
-                "target": "output/404.shtml"
+                "source": "pages/errors/*.md",
+                "target": "./*.shtml"
             }
         ],
         "templates": [
@@ -38,24 +38,24 @@
         "resources": [
             {
                 "source": "resources/css/reset.css",
-                "target": "output/resources/css/reset.css"
+                "target": "./resources/css/reset.css"
             },
             {
                 "source": "resources/css/styles.css",
-                "target": "output/resources/css/styles.css"
+                "target": "./resources/css/styles.css"
             },
             {
                 "source": "resources/css/debug.css",
-                "target": "output/resources/css/debug.css"
+                "target": "./resources/css/debug.css"
             },
             {
                 "source": "resources/img",
-                "target": "output/resources/img",
+                "target": "./resources/img",
                 "resource_type": "relocate"
             },
             {
                 "source": "resources/scripts",
-                "target": "output/resources/scripts",
+                "target": "./resources/scripts",
                 "resource_type": "relocate"
             }
         ]
