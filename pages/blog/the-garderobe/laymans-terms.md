@@ -1,8 +1,9 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On layman's terms
 template: garderobe.html
 extended_classes: garderobe
+sub_title: On layman's terms
 
-#On layman's terms
+# On layman's terms
 
 The third tweet in this series questioned whether I'd stolen this joke from somewhere, but I wasn't able to attribute it
 to anyone or anything other than me and my own stupid brain, and there doesn't seem to be anyone else lining up to accept 

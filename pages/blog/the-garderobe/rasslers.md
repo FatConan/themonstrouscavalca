@@ -1,6 +1,7 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On the wrestling arts
 template: garderobe.html
 extended_classes: garderobe
+sub_title: On the wrestling arts
 
 # On the wrestling arts
 

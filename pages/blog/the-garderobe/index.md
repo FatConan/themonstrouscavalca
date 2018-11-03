@@ -1,6 +1,7 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe
 template: page.html
 extended_classes: blog garderobe-index
+is_index: True
 
 # The Garderobe
 
@@ -16,10 +17,10 @@ The curator isn't sure that any of these sewer dumplings are really worth pullin
 otherwise this blog section would be entirely empty. It also offers an opportunity for the curator to take a second look at his own thought processes
 in the hope they might one day provide a warning of the onset of some mental disorder.
 
-* [On the death of Burt Reynolds](/ill-conceptions/the-garderobe/burt-reynolds.html) 
-* [On maverick agents](/ill-conceptions/the-garderobe/maverick-agents.html)
-* [On layman's terms](/ill-conceptions/the-garderobe/laymans-terms.html)
-* [On the move](/ill-conceptions/the-garderobe/the-move.html)
-* [On the wrestling arts](/ill-conceptions/the-garderobe/rasslers.html)
-* [On agile development](/ill-conceptions/the-garderobe/programming.html)
-
+<ul>
+{% for page_path, page in GLOBALS["site"].page_reference["/ill-conceptions/the-garderobe"] %}
+    {% if not page.data.get("is_index", False) %}
+        <li><a href="{{ page.target_url }}">{{ page.data["sub_title"] }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>

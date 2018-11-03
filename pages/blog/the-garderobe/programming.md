@@ -1,6 +1,7 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On agile development
 template: garderobe.html
 extended_classes: garderobe
+sub_title: On agile development
 
 # On agile development
 

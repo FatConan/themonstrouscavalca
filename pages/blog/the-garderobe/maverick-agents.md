@@ -1,6 +1,7 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On maverick agents
 template: garderobe.html
 extended_classes: garderobe
+sub_title: On maverick agents
 
 # On maverick agents
 

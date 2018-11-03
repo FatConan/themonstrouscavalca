@@ -1,6 +1,7 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On the move
 template: garderobe.html
 extended_classes: garderobe
+sub_title: On the move
 
 # On the move
 
