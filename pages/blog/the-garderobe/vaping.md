@@ -48,3 +48,6 @@ criminal car gang of inhalation based activities.
 
 > Does anyone know where I can get an e-cigarette thing that looks like a chrome oboe being orbited by the ships from close encounters?
 [Original](https://twitter.com/FatConan/status/472129533316186112)
+
+Note: Not all of these got zeros, but the majority did, and it didn't seem right to break up the set. Also the replies they got
+were very much discussion how limited their appeal was, so I'm giving them a pass

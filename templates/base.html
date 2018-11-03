@@ -13,14 +13,14 @@
     </head>
     <body>
         <div class="body-wrapper">
-            <header class="{% if homepage %}homepage{%  else %}subpage{% endif %}">
+            <header class="{% if DATA.get("homepage", False) %}homepage{% else %}subpage{% endif %}">
                 <ul class="nav-links">
                     <li class="twitter"><a href="http://twitter.com/fatconan" title="Twitter">Twitter</a></li>
                     <li class="github"><a href="http://github.com/fatconan" title="Github">Github</a></li>
                 </ul>
             </header>
             <section class="content {{ DATA.get("extended_classes") }}">
-                <a class="home {% if homepage %}hidden{% endif %}" title="Back to the beginning" href="/"><span>Go back!</span></a>
+                <a class="home {% if DATA.get("homepage", False) %}hidden{% endif %}" title="Back to the beginning" href="/"><span>Go back!</span></a>
                 <div class="inner {{ extended_classes }}">
                     <div class="cms">
                          {% block extension %}{% endblock %}
