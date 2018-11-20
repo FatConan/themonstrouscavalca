@@ -16,13 +16,13 @@ It was a time when even the etiquette wasn't understood; while we all knew that 
 from venues, we could only offer confused shrugs when someone produced one of these new gizmos and proceeded to pump out the sort of 
 cloud you'd normally only see looming over an unpronounceable Icelandic volcano.
 
-Top cap it off, vape shops were also still relatively few, and what was on offer had an aura of low-rent sex shop about it: full of vaguely 
+To cap it off, vape shops were also still relatively few, and what was on offer had an aura of low-rent sex shop about it: full of vaguely 
 glistening men blowing smoke rings while explaining to wide-eyed customers which part of their chosen contraption went where, 
 and silently judging them how much wattage they could handle.  That was the genesis of this daft series: the illicit hardware 
 being dealt from strange establishments, in customised configurations against a set of criteria only those in the know had any concept of. 
 
 All of that was at the fore when these were written, and now that's subsided these tweets are suddenly dated. Vaping doesn't
-necessarily have that weird and underground feel about it that it had a few years ago when it was the under-lit, drifting around a city at night
+necessarily have that weird and underground feel about it that it had a few years ago when it was the under-lit, drifting around a city at night,
 criminal car gang of inhalation based activities.
 
 > Where can I get one of those long e-cigs that pulls snow & ice in at the front & sustains the impoverished vestiges of humanity at the back?<br />
