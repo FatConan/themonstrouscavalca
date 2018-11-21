@@ -6,7 +6,7 @@ extended_classes: blog
 ## An Animated Mishmash
 
 Neck-Bolts is collection of half-formed prototypes and rejected experiments that were cobbled hastily together and thrown into the 
-electric-chamber to be animated and evaluated. They are a repository of ideas that may be used, abused, dissected and reassembled to
+electric-chamber to be animated and evaluated. It is a repository of ideas that may be used, abused, dissected and reassembled to
 inspire or aid.
 
 It comes in the shape of some experimental UI components, D3 charts and CSS effects that may be deconstructed and bolted on to your own projects as 
