@@ -1,6 +1,7 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe
 template: page.html
 extended_classes: blog garderobe-index
+jinja_pass: True
 is_index: True
 
 # The Garderobe
