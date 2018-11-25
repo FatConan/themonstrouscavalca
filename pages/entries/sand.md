@@ -13,6 +13,9 @@ a narrower focus for creating small-scale sites (like this one) with a minimum o
 Additionally **Sand** allows access to a collection of useful standard variables to each of the templates as well as offering access to a representation 
 of the entire site so that pages can build indices and navigation.  
 
+You may acquire **Sand** for your own purposes at its [Github Repository](https://github.com/fatconan/sand) or read the documentation for an introduction to its usages
+at [sand.themonstrouscavalca.de](https://sand.themonstrouscavalca.de).
+
 **Sand** is currently generating the following sites:
 
 - [themonstrouscavalca.de](https://themonstrouscavalca.de)
