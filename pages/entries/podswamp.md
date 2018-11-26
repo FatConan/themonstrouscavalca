@@ -18,5 +18,5 @@ Not content with having Podswamp and its offspring sealed in a repository, the c
 
 - [Stop Podcasting Yourself](https://spy-pod.themonstrouscavalca.de)
 - [The Black Tapes](https://blacktapes-pod.themonstrouscavalca.de)
-- [The Dead Authors](https://blacktapes-pod.themonstrouscavalca.de)
+- [The Dead Authors](https://deadauthors-pod.themonstrouscavalca.de)
 - [Welcome to Night Vale](https://nightvale-pod.themonstrouscavalca.de)
