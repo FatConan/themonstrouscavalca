@@ -20,8 +20,8 @@ in the hope they might one day provide a warning of the onset of some mental dis
 
 <ul>
 {% for page_path, page in GLOBALS["site"].page_reference["/ill-conceptions/the-garderobe"] %}
-    {% if not page.data.get("is_index", False) %}
-        <li><a href="{{ page.target_url }}">{{ page.data["sub_title"] }}</a></li>
+    {% if not page.data("is_index", False) %}
+        <li><a href="{{ page.target_url }}">{{ page.data("sub_title", "") }}</a></li>
     {% endif %}
 {% endfor %}
 </ul>

@@ -21,7 +21,7 @@
             </header>
             <section class="content {{ DATA.get("extended_classes") }}">
                 <a class="home {% if DATA.get("homepage", False) %}hidden{% endif %}" title="Back to the beginning" href="/"><span>Go back!</span></a>
-                <div class="inner {{ extended_classes }}">
+                <div class="inner {{ DATA.get("extended_classes") }}">
                     <div class="cms">
                          {% block extension %}{% endblock %}
                     </div>
