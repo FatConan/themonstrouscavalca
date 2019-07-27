@@ -15,3 +15,4 @@ infernal squabbling in the pit.
 * [Formic Aside](/terrible-creations/formic-aside.html) &mdash; A horde of tools for performing form validation in Java. It may also be layered atop the DBaser project, in a truly heinous strata.
 * [Neck-Bolts](/terrible-creations/neck-bolts.html) &mdash; Neck-Bolts is a collection of work-in-progress concepts so called because they might be adequate (at a push) for keeping a head atop a cobbled together corpse, but they are by no means an ideal solution.
 * [Sand](/terrible-creations/sand.html) &mdash; The fool built his home upon the rock while the wise man built his house on the Sand.
+* [headwillcollapse.net](//headwillcollapse.net) &mdash; A congealment of works that the curator enjoys consuming presented in a manner that attempts to depart from his usual repugnant stylings.
