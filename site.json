@@ -37,16 +37,9 @@
         ],
         "resources": [
             {
-                "source": "resources/css/reset.css",
-                "target": "./resources/css/reset.css"
-            },
-            {
-                "source": "resources/css/styles.css",
-                "target": "./resources/css/styles.css"
-            },
-            {
-                "source": "resources/css/debug.css",
-                "target": "./resources/css/debug.css"
+                "source": "resources/css",
+                "target": "./resources/css",
+                "resource_type": "relocate"
             },
             {
                 "source": "resources/img",
