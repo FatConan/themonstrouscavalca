@@ -8,6 +8,7 @@ html {
     font-size: 25pt;
 }
 h1.main-title{
+    color: #ffcc00ff;
     font-family:"Creepster", sans-serif;
     transform: rotate(-15deg);
     display: inline-block;
