@@ -9,20 +9,20 @@
             <link href="/resources/css/styles.css" rel="alternate stylesheet" type="text/css" title="Working in the Lab" />
             <link href="/resources/css/pulp-styles.css" rel="stylesheet" type="text/css" title="Pulp" />
             <script type="text/javascript" data-main="/resources/scripts/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
-            <script type="text/javascript" src="/resources/scripts/common/styleswitcher.js"></script>
+            <!-- script type="text/javascript" src="/resources/scripts/common/styleswitcher.js"></script -->
         {%  endblock %}
         <title>{{ DATA.get("page_title") }}</title>
     </head>
     <body>
         <div class="body-wrapper">
             <header class="{% if DATA.get("homepage", False) %}homepage{% else %}subpage{% endif %}">
-                <h1 class="main-title"><span class="the">The</span> <span class="monstrous">Monstrous</span> <span class="cavalcade">Cavalcade</span></h1>
+                <a class="main-title" href="/"><span class="the">The</span> <span class="monstrous">Monstrous</span> <span class="cavalcade">Cavalcade</span></a>
                 <ul class="nav-links">
                     <li class="twitter"><a href="http://twitter.com/fatconan" title="Twitter">Twitter</a></li>
                     <li class="github"><a href="http://github.com/fatconan" title="Github">Github</a></li>
                 </ul>
             </header>
-            <section class="content {{ DATA.get("extended_classes") }}">
+            <section id="page-content" class="content {{ DATA.get("extended_classes") }}">
                 <a class="home {% if DATA.get("homepage", False) %}hidden{% endif %}" title="Back to the beginning" href="/"><span>Go back!</span></a>
                 <div class="inner {{ DATA.get("extended_classes") }}">
                     <div class="cms">

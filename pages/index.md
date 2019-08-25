@@ -5,7 +5,9 @@ homepage: true
 
 # The Monstrous Cavalcade
 ## A Parade of Monstrosities
-This parade of monstrosities constitutes the public output of the being known only as [the curator](/the-curator). Here you'll be able to gaze upon his grotesque creations and, if so inclined, take advantage of his dubious works.
+This parade of monstrosities constitutes the public output of the being known only as [the curator](/the-curator). 
+
+Here you'll be able to gaze upon his grotesque creations and, if so inclined, take advantage of his dubious works.
 
 **Beware!** The abominations found lurking on these pages may be poisonous, rancid or otherwise unpleasant and any interaction with them is performed at your own risk. It is perhaps best to leave them in their specimen jars, safe in their formaldehyde.
 
@@ -21,6 +23,7 @@ Over the years the collection of [terrible creations](/terrible-creations) bolte
 * [headwillcollapse.net](//headwillcollapse.net) &mdash; A congealment of works that the curator enjoys consuming presented in a manner that attempts to depart from his usual repugnant stylings.
 
 ## Ill Conceptions
+
 Sometimes thoughts drip from the curator's mind like ooze from a spill pipe. On occasion he takes pleasure in capturing this goo in a specimen jar, and displaying alongside the other horrors in his twisted collection. These sickening examples can be browsed, at the risk of the reader, in the darkened corner of this twisted circus forever known as the [blog](/ill-conceptions). 
 
 Conversely some of the curator's thoughts aren't worthy of collecting and are dumped, by the bucket load, into the void of [twitter](https://twitter.com/fatconan). Some of
