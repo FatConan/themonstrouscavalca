@@ -17,10 +17,14 @@
         <div class="body-wrapper">
             <header class="{% if DATA.get("homepage", False) %}homepage{% else %}subpage{% endif %}">
                 <a class="main-title" href="/"><span class="the">The</span> <span class="monstrous">Monstrous</span> <span class="cavalcade">Cavalcade</span></a>
-                <ul class="nav-links">
-                    <li class="twitter"><a href="http://twitter.com/fatconan" title="Twitter">Twitter</a></li>
-                    <li class="github"><a href="http://github.com/fatconan" title="Github">Github</a></li>
-                </ul>
+                <nav>
+                    <ul class="nav-links">
+                        <li class="creations"><a href="/terrible-creations" title="Terrible Creations">Creations</a></li>
+                        <li class="concepts"><a href="/ill-conceptions" title="Ill Conceptions">Concepts</a></li>
+                        <li class="twitter"><a href="http://twitter.com/fatconan" title="Twitter">Twitter</a></li>
+                        <li class="github"><a href="http://github.com/fatconan" title="Github">Github</a></li>
+                    </ul>
+                </nav>
             </header>
             <section id="page-content" class="content {{ DATA.get("extended_classes") }}">
                 <a class="home {% if DATA.get("homepage", False) %}hidden{% endif %}" title="Back to the beginning" href="/"><span>Go back!</span></a>
@@ -29,10 +33,10 @@
                          {% block extension %}{% endblock %}
                     </div>
                 </div>
-                <footer>
-                    <p>Built upon the <a href="https://github.com/FatConan/sand">Sand</a></p>
-                </footer>
             </section>
+            <footer>
+                <p>Built upon the <a href="https://github.com/FatConan/sand">Sand</a></p>
+            </footer>
         </div>
     </body>
 </html>

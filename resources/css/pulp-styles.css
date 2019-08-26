@@ -20,6 +20,56 @@ header {
     box-sizing: border-box;
 }
 
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 1035px;
+    width: 80%;
+    margin: -280px auto;
+    top: 0;
+    text-align: right;
+}
+nav ul {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 175px 175px 40px 40px;
+    grid-template-rows: 40px;
+    margin: 20px;
+}
+nav li {
+    display: block;
+}
+nav a{
+    background-color: #000;
+    color: #FFCC00;
+    font-family: "Creepster", sans-serif;
+    font-size: 23px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 145px;
+}
+nav .twitter a,
+nav .github a{
+    text-indent: -9999px;
+    overflow: hidden;
+    background-color: transparent;
+    background-size: 25px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 40px;
+}
+nav .twitter a{
+    background-image: url(/resources/img/pulp/twitter-invert.svg);
+}
+nav .github a{
+    background-image: url(/resources/img/pulp/github-invert.svg);
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 1875px){
     header {
         background-size: 100% auto;
@@ -39,10 +89,6 @@ a.main-title {
     height: 274px;
 }
 
-h1#the-monstrous-cavalcade,
-h2#a-parade-of-monstrosities{
-    display: none;
-}
 
 section.content{
     max-width: 1035px;
@@ -51,8 +97,9 @@ section.content{
 }
 
 footer{
-    height: 135px;
     background: url(/resources/img/pulp/footer.svg) bottom left no-repeat;
+    height: 135px;
+    margin-top: 120px;
 }
 
 footer p{
@@ -65,6 +112,11 @@ footer a{
     color: #000;
 }
 
+
+.homepage h1#the-monstrous-cavalcade,
+.homepage h2#a-parade-of-monstrosities{
+    display: none;
+}
 .homepage .cms p:first-of-type,
 .homepage .cms p:nth-of-type(2){
     width: 66%;
@@ -73,6 +125,9 @@ footer a{
     font-size: 40px;
     text-transform: uppercase;
 }
+.homepage .cms p:nth-of-type(2){
+    margin-bottom: 80px;
+}
 .homepage .cms p:nth-of-type(3) strong{
     font-size: 40px;
     letter-spacing: 5px;
@@ -80,34 +135,24 @@ footer a{
     background: #ffcc00;
     height: 47px;
     line-height: 47px;
-    margin: 20px 0;
+    margin: 0 0 20px;
     display: block;
     font-family: 'Creepster', sans-serif;
     clear: both;
     width: 213px;
     text-align: center;
 }
-
-.homepage .cms ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-}
-.homepage .cms li {
-    display: block;
-}
-.homepage .cms li a{
-    display: block;
-    font-weight: bold;
-    color: #fff;
+.homepage .cms p:nth-of-type(3){
+     margin-bottom: 100px;
 }
 
 .homepage h2#ill-conceptions{
+    margin-top: 80px;
     position: relative;
     display: block;
     background: #fff;
     color: #000;
-    padding: 56px 56px 15px 56px;
+    padding: 56px 56px 56px 56px;
 }
 .homepage h2#ill-conceptions:after{
     background: url(/resources/img/pulp/hand.svg) top center no-repeat;
@@ -121,23 +166,70 @@ footer a{
     height: 262px;
     z-index: 10;
 }
-
-.homepage .cms p:nth-of-type(5),
-.homepage .cms p:nth-of-type(6){
+.homepage h2#ill-conceptions + p,
+.homepage h2#ill-conceptions + p + p{
     position: relative;
     background: #fff;
     color: #000;
-    padding: 15px 33% 15px 56px;
+    padding: 15px 33% 56px 56px;
+    margin-top: -41px;
     box-sizing: border-box;
 }
-.homepage .cms p:nth-of-type(6) {
-    padding-bottom: 56px;
+.homepage h2#ill-conceptions + p + p{
+    margin-bottom: 60px;
 }
-.homepage .cms p:nth-of-type(5) a,
-.homepage .cms p:nth-of-type(6) a{
+.homepage h2#ill-conceptions + p a,
+.homepage h2#ill-conceptions + p + p a{
     font-weight: bold;
     color: #000;
 }
+
+.homepage h2#hideous-entities,
+.homepage h2#diamonds-in-the-rough{
+    text-align: center;
+}
+.homepage h2#hideous-entities + ul,
+.homepage h2#diamonds-in-the-rough + p + ul{
+    grid-template-columns: 1fr 1fr;
+}
+.homepage h2#hideous-entities + ul a{
+    position: relative;
+    text-align: center;
+}
+.homepage h2#hideous-entities + ul li a:before,
+.homepage h2#diamonds-in-the-rough + p + ul li a:before{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120px auto;
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin: 20px auto;
+}
+.homepage h2#hideous-entities + ul li:nth-of-type(1) a:before{
+    background-image: url(/resources/img/pulp/twitter.svg);
+}
+.homepage h2#hideous-entities + ul li:nth-of-type(2) a:before{
+    background-image: url(/resources/img/pulp/github.svg);
+}
+
+.homepage h2#diamonds-in-the-rough{
+    margin-top: 80px;
+}
+.homepage h2#diamonds-in-the-rough + p + ul li:nth-of-type(1) a:before{
+    background-image: url(/resources/img/pulp/aj-logo.svg);
+    background-position: center right;
+}
+.homepage h2#diamonds-in-the-rough + p + ul li:nth-of-type(2) a:before{
+    background-image: url(/resources/img/pulp/lils.svg);
+    background-position: center left;
+}
+
+.homepage h2#diamonds-in-the-rough + p + ul li:first-of-type{
+    text-align: right;
+}
+
 
 .cms{
     line-height: 1.5;
@@ -153,17 +245,19 @@ footer a{
 .cms ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 40px;
 }
 .cms li {
     display: block;
 }
-.cms li a{
-    display: block;
-    font-weight: bold;
-    color: #fff;
-}
 
+.cms li a{
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
 .cms h2{
     color: #ffcc00ff;
     font-family: "Creepster", sans-serif;
