@@ -6,6 +6,8 @@ is_index: True
 
 # The Garderobe
 
+## Awful Snippets From The Sewer
+
 Concealed at the back of the curator's castle is **The Garderobe**, a grimy hovel splattered with the curator's terrible sludge.
 While a lot of what the curator produces, though horrific, holds some morbid fascination for the general public, a small proportion
 of his output just winds up gumming up the passage to the cesspit, stagnant and devoid of attention.

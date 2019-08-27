@@ -12,3 +12,6 @@ Sadly it inevitably won't.
 
 And indeed it hasn't.  While waiting for inspiration to strike the curator ended up cobbling together the start of an exploration of 
 his failed creations in [The Garderobe](/ill-conceptions/the-garderobe)
+
+*Update* The Curator has started another, more positive, venture. A repository of things he likes to feed to his brain in an effort 
+to keep it from deflating. It's a small, but growing, collection over at [Head Will Collapse](//headwillcollapse.net).

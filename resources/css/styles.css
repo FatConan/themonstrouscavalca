@@ -103,6 +103,11 @@ ul.nav-links li.github a{
     grid-row: 1;
 }
 
+ul.nav-links li.styler a{
+    background-image: url(../img/icons/switch.svg);
+    grid-row: 1;
+}
+
 a.home.hidden{
     display: none;
 }

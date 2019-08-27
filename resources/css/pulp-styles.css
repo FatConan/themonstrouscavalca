@@ -32,7 +32,7 @@ nav {
 nav ul {
     grid-column: 2;
     display: grid;
-    grid-template-columns: 175px 175px 40px 40px;
+    grid-template-columns: 175px 175px 40px 40px 40px;
     grid-template-rows: 40px;
     margin: 20px;
 }
@@ -51,20 +51,25 @@ nav a{
     width: 145px;
 }
 nav .twitter a,
-nav .github a{
+nav .github a,
+nav .styler a{
     text-indent: -9999px;
     overflow: hidden;
     background-color: transparent;
     background-size: 25px auto;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 40px;
+    width: 38px;
 }
 nav .twitter a{
     background-image: url(/resources/img/pulp/twitter-invert.svg);
 }
 nav .github a{
     background-image: url(/resources/img/pulp/github-invert.svg);
+}
+nav .styler a{
+    background-image: url(/resources/img/pulp/switch-invert.svg);
+    background-size: 40px auto;
 }
 nav a:hover{
     text-decoration: underline;
@@ -230,7 +235,6 @@ footer a{
     text-align: right;
 }
 
-
 .cms{
     line-height: 1.5;
 }
@@ -258,6 +262,14 @@ footer a{
     font-weight: bold;
     margin-bottom: 11px;
 }
+
+.cms h1{
+    color: #ffffff;
+    font-family: "Creepster", sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
 .cms h2{
     color: #ffcc00ff;
     font-family: "Creepster", sans-serif;
@@ -266,6 +278,44 @@ footer a{
 
 .cms p, .cms ul {
     padding: 20px 0;
+}
+
+.garderobe-index p:first-of-type{
+}
+.garderobe-index ul{
+    margin-top: 80px;
+    color: #000;
+    padding: 56px 200px 56px 56px;
+    background: #ffffff url(/resources/img/pulp/hand.svg) top -3px right 30px no-repeat;
+    background-size: 170px auto;
+}
+.garderobe-index .cms li,
+.garderobe-index .cms li a{
+    color: #000;
+}
+
+.garderobe .cms blockquote{
+    color: #000;
+    background-color: #fff;
+    background-image: url(../img/pulp/twitter-invert.svg);
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: bottom 30px right 30px;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.garderobe .cms blockquote a{
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.garderobe .cms blockquote a::before{
+    content:"[ ";
+}
+.garderobe .cms blockquote a::after{
+    content:" » ]";
 }
 
 /* CMS Styling */

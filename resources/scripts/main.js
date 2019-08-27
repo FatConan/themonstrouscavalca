@@ -1,8 +1,8 @@
 requirejs(["build"], function(){
     'use strict';
-    requirejs(["jquery", "domReady"], function ($, domReady) {
+    requirejs(["jquery", "domReady", "common/styleswitcher"], function ($, domReady, StyleSwitcher) {
         domReady(function(){
-      
+            new StyleSwitcher();
         });
     });
 });
