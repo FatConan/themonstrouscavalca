@@ -11,9 +11,6 @@ responsibility for it.
 
 > I have a friend whose job is to translate things into and out of layman's terms. Half the time I've no idea what they're talking about.
 [Original](https://twitter.com/FatConan/statuses/431916141926445057)
-
-  
-
 > You'd think it'd be a difficult thing to do, but every time they explain it, it seems pretty straightforward.
 [Original](https://twitter.com/FatConan/statuses/431916141926445057)
 

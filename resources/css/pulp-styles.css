@@ -268,7 +268,7 @@ footer a{
     font-family: "Creepster", sans-serif;
     font-size: 40px;
     margin-bottom: 40px;
-    text-align: center;
+    text-align: right;
 }
 .cms h2{
     color: #ffcc00ff;
@@ -309,6 +309,7 @@ footer a{
     color: rgba(0, 0, 0, 0.6);
     font-size: 20px;
     padding-top: 20px;
+    margin-bottom: 40px;
 }
 
 .garderobe .cms blockquote a::before{

@@ -13,5 +13,5 @@ I for one am more comfortable with pool sharks and sewer gators than that.
 According to my folks Keanu wasn't home to an infestation of insect assailants; oh, and he got the scar on his abdomen from a motorcycle accident.
 
 
-> "We found this little second hand book shop and guess what I got?"<br />-"Bed bugs?"<br />* presents a Keanu Reeves biography "<br />#chatswiththefolks
+> "We found this little second hand book shop and guess what I got?"<br />-"Bed bugs?"<br />* presents a Keanu Reeves biography *<br />#chatswiththefolks
 [Original](https://twitter.com/FatConan/statuses/614745350683914240)
