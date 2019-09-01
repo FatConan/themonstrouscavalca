@@ -1,0 +1,26 @@
+@import url(/resources/css/reset.css);
+@import url('https://use.typekit.net/xaq0fga.css');
+
+.body-wrapper{
+    display: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #000 url(/resources/img/loader/loading.svg) center center no-repeat;
+}
+
+body::after{
+    color: #ffcc00;
+    content: "The Monstrous Cavalcade is loading...";
+    display: block;
+    font-family: itc-american-typewriter, serif;
+    font-size: 15pt;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    padding-top: 100px;
+}

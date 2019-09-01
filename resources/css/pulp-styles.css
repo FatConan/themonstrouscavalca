@@ -1,3 +1,4 @@
+@import url(/resources/css/reset.css);
 @import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
 @import url('https://use.typekit.net/xaq0fga.css');
 
@@ -9,6 +10,10 @@ html {
     width: 100%;
     font-family: itc-american-typewriter, serif;
     font-size: 16px;
+}
+
+.body-wrapper{
+    display: block;
 }
 
 header {

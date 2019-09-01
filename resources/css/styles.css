@@ -1,3 +1,4 @@
+@import url(/resources/css/reset.css);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Kenia|Amita');
 
 html {
@@ -126,13 +127,15 @@ a.home{
     top: 100px;
     position: absolute;
     transition: left 0.5s, transform 0.5s;
-    transform: rotate(343deg);
+    stransform: rotate(343deg);
+    transform: rotate(-17deg);
     box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
     text-decoration: none;
 }
 a.home:hover{
     left: -100px;
-    transform: rotate(338deg);
+    stransform: rotate(338deg);
+    transform: rotate(-22deg);
     text-decoration: none;
 }
 a.home span{
