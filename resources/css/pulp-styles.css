@@ -13,7 +13,7 @@ html {
 }
 
 .body-wrapper{
-    display: block;
+    visibility: visible;
 }
 
 header {
@@ -39,7 +39,6 @@ nav ul {
     display: grid;
     grid-template-columns: 175px 175px 40px 40px 40px;
     grid-template-rows: 40px;
-    margin: 20px;
 }
 nav li {
     display: block;
@@ -240,6 +239,10 @@ footer a{
     text-align: right;
 }
 
+.homepage li a+ em,
+.cms li a + em{
+    display: none;
+}
 .cms{
     line-height: 1.5;
 }
@@ -280,10 +283,24 @@ footer a{
     font-family: "Creepster", sans-serif;
     font-size: 40px;
 }
-
+.cms h3{
+    color: #ffcc00ff;
+    font-size: 30px;
+}
+.cms h4{
+    color: #fff;
+    font-size: 20px;
+}
 .cms p, .cms ul {
     padding: 20px 0;
 }
+.cms strong{
+    font-weight: bold;
+}
+.cms em{
+    font-style: italic;
+}
+
 
 .garderobe-index p:first-of-type{
 }
@@ -306,9 +323,10 @@ footer a{
     background-size: 64px 64px;
     background-repeat: no-repeat;
     background-position: bottom 30px right 30px;
-    padding-left: 100px;
+    padding: 0 30px;
     font-size: 25px;
 }
+
 .garderobe .cms blockquote a{
     display: block;
     color: rgba(0, 0, 0, 0.6);
@@ -323,144 +341,3 @@ footer a{
 .garderobe .cms blockquote a::after{
     content:" » ]";
 }
-
-/* CMS Styling */
-/*.cms h1{
-    display: inline-block;
-    font-size: 42pt;
-    font-weight: bold;
-    position: relative;
-    background: url(/resources/img/pulp/ant.svg) center right no-repeat;
-    background-size: 100px auto;
-}
-
-.cms a{
-    color: #ffcc00ff;
-    text-decoration: none;
-}
-
-.cms a:hover{
-    text-decoration: underline;
-}
-.cms h1::before{
-
-}
-
-.cms h1::after{
-
-}
-
-.cms h2 {
-    font-size: 30pt;
-    padding: 10px 0;
-    margin: 20px 0;
-}
-
-.cms h3 {
-    font-size: 20pt;
-    padding: 5px 0;
-    margin: 10px 0;
-}
-
-.cms h4 {
-    font-weight: bold;
-    padding: 5px 0;
-    margin: 5px 0;
-}
-
-.cms p, .cms ul {
-    padding: 10px 20px;
-    margin: 10px 0;
-}
-
-.cms ul li{
-    margin-bottom: 2em;
-    background: url(/resources/img/pulp/brew.svg) top left no-repeat;
-    background-size: 64px auto;
-    sborder-left: 10px solid #ffcc00ff;
-    padding-left: 80px;
-    min-height: 80px;
-}
-
-.cms ul li:last-child{
-    margin-bottom: 0;
-}
-
-.cms .redacted{
-    background: rgba(0, 0, 0, 0.5);
-    color: transparent;
-}
-
-.cms blockquote {
-    font-size: 20pt;
-    color: rgba(255,255,255,0.5);;
-    padding: 30px;
-    margin: 20px 0;
-    background-color: rgba(147, 101 , 21, 0.3);
-    position: relative;
-}
-
-.cms blockquote::before{
-    content: "“";
-    top: -10px;
-    left: 10px;
-    position: absolute;
-    font-size: 80pt;
-    font-family: "Amita", serif;
-    color: rgba(255,255,255,0.3);
-}
-
-.cms blockquote::after{
-    content: "”";
-    bottom: -50px;
-    right: 10px;
-    position: absolute;
-    font-size: 80pt;
-    font-family: "Amita", serif;
-    color: rgba(255,255,255,0.3);
-}
-
-.cms blockquote p {
-    border: none;
-}
-
-.cms em {
-    font-style: italic;
-}
-
-.cms p {
-    line-height: 1.5;
-}
-.cms code{
-    display: block;
-    font-family: monospace;
-    white-space: pre;
-    font-size: 20pt;
-    color: rgba(255,255,255,0.5);;
-    padding: 30px;
-    margin: 20px 0;
-    background-color: rgba(147, 101 , 21, 0.3);
-}
-
-.garderobe .cms blockquote{
-    color: #fff;
-    background-image: url(../img/icons/crow.svg);
-    background-size: 64px 64px;
-    background-repeat: no-repeat;
-    background-position: center left 30px;
-    padding-left: 100px;
-}
-.garderobe .cms blockquote a{
-    display: block;
-    font-family: "Open Sans", sans-serif;
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 12pt;
-    padding-top: 20px;
-}
-
-.garderobe .cms blockquote a::before{
-    content:"[ ";
-}
-.garderobe .cms blockquote a::after{
-    content:" » ]";
-}*/

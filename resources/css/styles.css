@@ -33,6 +33,7 @@ body {
     min-width: 600px;
     background: rgba(0,0,0, 0.5);
     min-height: 100vh;
+    visibility: visible;
 }
 
 strong{
@@ -60,7 +61,7 @@ header.homepage, header.subpage{
 ul.nav-links {
     background: none;
     display: grid;
-    grid-template-rows:  64px;
+    grid-template-rows:  64px 64px;
     grid-template-columns: 64px 64px;
     grid-gap: 10px;
     border-left: none;
@@ -96,17 +97,18 @@ ul.nav-links li a:hover{
 
 ul.nav-links li.twitter a{
     background-image: url(../img/icons/crow.svg);
-    grid-row : 1;
 }
 
 ul.nav-links li.github a{
     background-image: url(../img/icons/github.svg);
-    grid-row: 1;
 }
 
+ul.nav-links li.styler{
+    grid-row: 2;
+    grid-column: 2;
+}
 ul.nav-links li.styler a{
     background-image: url(../img/icons/switch.svg);
-    grid-row: 1;
 }
 
 a.home.hidden{
@@ -127,14 +129,12 @@ a.home{
     top: 100px;
     position: absolute;
     transition: left 0.5s, transform 0.5s;
-    stransform: rotate(343deg);
     transform: rotate(-17deg);
     box-shadow: 0 0 25px rgba(147, 101 , 21, 0.8);
     text-decoration: none;
 }
 a.home:hover{
     left: -100px;
-    stransform: rotate(338deg);
     transform: rotate(-22deg);
     text-decoration: none;
 }
