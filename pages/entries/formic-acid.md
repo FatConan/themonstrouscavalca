@@ -1,8 +1,8 @@
-page_title: THEMONSTROUSCAVALCA.DE - Terrible Creations - Formic Aside
+page_title: THEMONSTROUSCAVALCA.DE - Terrible Creations - Formic Acid
 template: entity.html
 extended_classes: blog
 
-# Formic Aside
+# Formic Acid
 ## The Acid Test
 
 Formic Aside is another diseased canker scraped from its parent project. Since being isolated in a petri dish it has grown, sprouting additional limbs and tumours.  Formic Aside's purpose is to wrap a bounty of sickening form validation operations into a dripping bundle that can be used to create arbitrary forms. Perhaps the sort of stomach churning form one might fill out when making an insurance claim or a visa application, for example.
