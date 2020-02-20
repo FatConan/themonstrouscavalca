@@ -37,11 +37,6 @@
         ],
         "resources": [
             {
-                "source": "extras/TXT",
-                "target": "./TXT",
-                "resource_type": "relocate"
-            },
-            {
                 "source": "resources/css",
                 "target": "./resources/css",
                 "resource_type": "relocate"
