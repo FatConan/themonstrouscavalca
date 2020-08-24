@@ -355,6 +355,15 @@ footer a{
     }
     a.main-title{
         padding-top: 320px;
+        background: url(/resources/img/pulp/logo.svg) top left no-repeat;
+        background-size: 100% auto;
+        display: block;
+        text-indent: -9999px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 385px;
+        min-width: 200px;
+        height: 274px;
     }
     .cms ul {
         grid-template-columns: 1fr;
