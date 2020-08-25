@@ -399,7 +399,7 @@ footer p {
 
 @media screen and (max-width: 750px){
     .body-wrapper{
-        min-width: auto;
+        min-width: min-content;
     }
 
     section.content {
