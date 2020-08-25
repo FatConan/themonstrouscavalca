@@ -5,6 +5,7 @@ html {
     font-family: 'Open Sans', serif;
     font-size: 15pt;
     color: #111;
+    width: 100%;
 }
 
 a.main-title{
@@ -396,3 +397,65 @@ footer p {
     border-left: 10px solid rgba(147, 101 , 21, 0.6);
 }
 
+@media screen and (max-width: 750px){
+    .body-wrapper{
+        min-width: auto;
+    }
+
+    section.content {
+        width: 95%;
+        max-width: 1024px;
+    }
+
+    footer {
+        width: 95%;
+    }
+
+    ul.nav-links {
+        grid-template-rows:  64px;
+        grid-template-columns: 64px 64px 64px;
+        grid-template-areas: "twit    git      style"
+                             "create  concept  blank";
+        grid-gap: 10px;
+        top: 0;
+        left: 0;
+    }
+
+    ul.nav-links li.creations,
+    ul.nav-links li.concepts{
+        display: none;
+    }
+    ul.nav-links li.twitter{
+        grid-area: twit;
+    }
+    ul.nav-links li.github{
+        grid-area: git;
+    }
+    ul.nav-links li.styler{
+        grid-area: style;
+    }
+
+    a.home{
+        display: none;
+    }
+
+    .garderobe-index ul {
+        grid-template-columns: 1fr;
+    }
+
+    .garderobe .cms blockquote{
+        color: #fff;
+        background-image: url(../img/icons/crow.svg);
+        background-size: 32px auto;
+        background-repeat: no-repeat;
+        background-position: top 10px right 10px;
+        padding-left: 0;
+    }
+    .garderobe .cms blockquote a{
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 12pt;
+        padding-top: 20px;
+    }
+}
