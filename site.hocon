@@ -37,6 +37,11 @@
         ],
         "resources": [
             {
+                "source": "resources/favicon/favicon.ico",
+                "target": "./favicon.ico",
+                "resource_type": "relocate"
+            },
+            {
                 "source": "resources/css",
                 "target": "./resources/css",
                 "resource_type": "relocate"
@@ -47,10 +52,10 @@
                 "resource_type": "relocate"
             },
             {
-                "source": "resources/scripts",
-                "target": "./resources/scripts",
-                "resource_type": "relocate"
-            }
+                 "source": "resources/scripts",
+                 "target": "./resources/scripts",
+                 "resource_type": "relocate"
+             }
         ]
     }
 ]}
