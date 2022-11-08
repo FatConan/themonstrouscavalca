@@ -31,7 +31,7 @@ Conversely some of the curator's thoughts aren't worthy of collecting and are du
 those unworthy ideas can be found, amongst other slop and ichor, in [The Garderobe](/ill-conceptions/the-garderobe). 
 
 ## Hideous Entities
-* [Twitter](https://twitter.com/fatconan) _&mdash;_ Strange squawking voices can be heard emanating from a bore hole behind the old house. Frequently the curator scribbles down their screeched ramblings and records them here for posterity.
+* [Twitter](/ill-conceptions/the-garderobe) _&mdash;_ Strange squawking voices can be heard emanating from a bore hole behind the old house. Frequently the curator scribbles down their screeched ramblings and records them here for posterity.
 * [GitHub](https://github.com/FatConan) _&mdash;_ The circus tent can only hold so many freakish entities, and the curator's budget can only feed so many mouths, sometimes he has to ship his creations off to storage facilities like this. 
 
 ## Diamonds in the Rough

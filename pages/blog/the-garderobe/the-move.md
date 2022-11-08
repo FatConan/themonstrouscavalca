@@ -18,4 +18,3 @@ After a spot of Googling I found out this supposedly means "On the Move", which 
 I suppose "Oscar Tango Mike" sounds like an instruction to dance, and war is hell enough already.
 
 > Everyone in this game appears to be named "Oscar Mike" #CoD<br />
-[Original](https://twitter.com/FatConan/statuses/493364937608396800)

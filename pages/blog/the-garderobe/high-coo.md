@@ -16,4 +16,3 @@ The first time we went north, my partner tried to get some photographs (she fail
 And I wrote this dumb thing.
 
 > The Scottish Haiku<br />Auburn Hair Against White Snow<br />Envy of Low Coo.
-[Original](https://twitter.com/FatConan/status/969276452809183232)

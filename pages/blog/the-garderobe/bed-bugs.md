@@ -1,6 +1,4 @@
 page_title: THEMONSTROUSCAVALCA.DE - The Garderobe - On second-hand books
-template: garderobe.html
-extended_classes: garderobe
 sub_title: On second-hand books
 
 # On second-hand books
@@ -14,4 +12,3 @@ According to my folks Keanu wasn't home to an infestation of insect assailants; 
 
 
 > "We found this little second hand book shop and guess what I got?"<br />-"Bed bugs?"<br />* presents a Keanu Reeves biography *<br />#chatswiththefolks
-[Original](https://twitter.com/FatConan/statuses/614745350683914240)

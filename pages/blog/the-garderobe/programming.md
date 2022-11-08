@@ -12,6 +12,5 @@ some mock Gilbert &amp; Sullivan. In fact I'd say it's sufficiently good to be e
 Of course, this rework is about coding, so its subject is far more despicable than anything those other pretenders have to offer.
 
 > I am the very model<br />Of modern agile development<br />My solutions may be working,<br />but they sure as hell aren't elegant...
-[Original](https://twitter.com/FatConan/statuses/658998717622722560)
+
 > ...requirements keep shifting,<br />Without guidance or intelligence.<br />I am the very model<br />Of modern agile development.
-[Original](https://twitter.com/FatConan/statuses/658998916990545920)

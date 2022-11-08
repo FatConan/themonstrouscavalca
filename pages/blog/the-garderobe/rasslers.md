@@ -19,7 +19,5 @@ I'm often sarcastic on my Twitter feed, but I genuinely love this little aspect 
 I don't really care for the rest of it.
 
 > Part of the fun of being a wrestler must be the ability to rename basic grappling techniques to things like "The Doomsday Bar Mitzvah". <br />
-[Original](https://twitter.com/FatConan/statuses/659812258286067712)
 
 > He's got him in the agonising "Correspondence of Socrates"; look at the pain on his face.
-[Original](https://twitter.com/FatConan/statuses/659812799837831168)

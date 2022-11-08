@@ -17,7 +17,11 @@
             },
             {
                 "source": "pages/blog/the-garderobe/*.md",
-                "target": "./ill-conceptions/the-garderobe/*.html"
+                "target": "./ill-conceptions/the-garderobe/*.html",
+                "config": {
+                    "template": "garderobe.html",
+                    "extended_classes": "garderobe"
+                }
             },
             {
                 "source": "pages/about/index.md",

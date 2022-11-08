@@ -20,4 +20,3 @@ my observation in this tweet transpired to either be so completely trite, or (gi
 entirely ignored. 
 
 > My understanding is that Tom Selleck underwent the Quickening yesterday. <br />
-[Original](https://twitter.com/FatConan/statuses/1038354189880094720)
