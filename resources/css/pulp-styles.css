@@ -54,6 +54,7 @@ nav a{
     text-decoration: none;
     width: 145px;
 }
+nav .mastodon a,
 nav .twitter a,
 nav .github a,
 nav .styler a{
@@ -67,6 +68,9 @@ nav .styler a{
 }
 nav .twitter a{
     background-image: url(/resources/img/pulp/twitter-invert.svg);
+}
+nav .mastodon a{
+     background-image: url(/resources/img/pulp/mastodon-invert.svg);
 }
 nav .github a{
     background-image: url(/resources/img/pulp/github-invert.svg);

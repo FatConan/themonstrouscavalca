@@ -100,6 +100,10 @@ ul.nav-links li.twitter a{
     background-image: url(../img/icons/crow.svg);
 }
 
+ul.nav-links li.mastodon a{
+    background-image: url(../img/icons/mastodon.svg);
+}
+
 ul.nav-links li.github a{
     background-image: url(../img/icons/github.svg);
 }
@@ -425,6 +429,7 @@ footer p {
     ul.nav-links li.concepts{
         display: none;
     }
+    ul.nav-links li.mastodon,
     ul.nav-links li.twitter{
         grid-area: twit;
     }
