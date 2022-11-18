@@ -319,7 +319,7 @@ footer a{
 .garderobe-index .cms li,
 .garderobe-index .cms li a{
     color: #000;
-    text-stroke: 2px #fff;
+    -webkit-text-stroke: 0.5px #ffffff;
 }
 
 .garderobe .cms blockquote{
