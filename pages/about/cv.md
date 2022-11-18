@@ -9,7 +9,7 @@ extended_classes: cv
 I am a competent and motivated software engineer with a wide range of programming experience in a number of different facets of development, ranging from building responsive web applications to writing distributed data processing systems. I am currently seeking a position in which I may learn new skills and expand my knowledge, while also serving as a constructive, diligent and creative member of a team of similarly motivated people. I am looking for a role in which I can contribute not just to the codebase, but also to the project (in terms of design and planning) at large.
 
 ## Experience
-### Systems Engineer — <span class="redacted">XXXXXXX</span> 
+### Principal Systems Engineer — <span class="redacted">XXXXXXX</span> 
 #### June 2016 – Present
 
 Currently building in-house support software for everyday operations and managing a suite of third-party support tools.
