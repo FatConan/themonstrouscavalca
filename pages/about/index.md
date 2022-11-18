@@ -17,5 +17,5 @@ He's hoping that finally having a proper, non-wordpress site after all this time
 You can find out more about the curator's curious existence by:
 
 * looking at his [LinkedIn profile](https://www.linkedin.com/in/ian-usher-the-curator)
-* reading his [Twitter feed](http://www.twitter.com/fatconan) (which he warns is as incomprehensible and unpleasant a feed as any)
+* reading his [Mastodon feed](https://mastodon.scot/@fatconan) (which he warns is as incomprehensible and unpleasant a feed as any)
 * or poring over his [Curriculum Vitae](/the-curator/cv.html) (which is fancy Latin for Mediocre Achievement Documentation)
