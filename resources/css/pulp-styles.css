@@ -70,7 +70,8 @@ nav .twitter a{
     background-image: url(/resources/img/pulp/twitter-invert.svg);
 }
 nav .mastodon a{
-     background-image: url(/resources/img/pulp/mastodon-invert.svg);
+    background-image: url(/resources/img/pulp/mastodon-invert.svg);
+    background-size: 32px auto;
 }
 nav .github a{
     background-image: url(/resources/img/pulp/github-invert.svg);
