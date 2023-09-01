@@ -6,11 +6,10 @@
         <meta name="description" content="The Monstrous Cavalcade - a parade of terrible creations from the laboratory of FatConan" />
         <link rel="shortcut icon" type="image/png" href="/resources/img/favicon.png" />
         {%  block head_replacements %}
-            <style type="text/css">.body-wrapper{visibility: hidden;}</style>
-            <link href="/resources/css/loader.css" rel="stylesheet" type="text/css" />
+            <style>.body-wrapper{visibility: hidden;}</style>
+             {{ ES6CSS.headers() | safe }}
             <link href="/resources/css/styles.css" rel="alternate stylesheet" type="text/css" title="Putrid Parchment" />
             <link href="/resources/css/pulp-styles.css" rel="alternate stylesheet" type="text/css" data-default="true" title="1950s Pulp" />
-             {{ ES6CSS.headers() | safe }}
              <script type="module"
                 src="/resources/scripts/main.js"></script>
         {%  endblock %}
