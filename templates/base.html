@@ -10,7 +10,9 @@
             <link href="/resources/css/loader.css" rel="stylesheet" type="text/css" />
             <link href="/resources/css/styles.css" rel="alternate stylesheet" type="text/css" title="Putrid Parchment" />
             <link href="/resources/css/pulp-styles.css" rel="alternate stylesheet" type="text/css" data-default="true" title="1950s Pulp" />
-            <script type="text/javascript" data-main="/resources/scripts/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+             {{ ES6CSS.headers() | safe }}
+             <script type="module"
+                src="/resources/scripts/main.js"></script>
         {%  endblock %}
         <title>{{ DATA.get("page_title") }}</title>
     </head>
