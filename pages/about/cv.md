@@ -42,7 +42,7 @@ Working on these important components has required harnessing through JUnit and 
 ### Senior Developer — <span class="redacted">XXXXXXX</span> 
 #### January 2005 – July 2011
 
-While at <span class="redacted">XXXXXXX</span> my main responsibility was the creation of web applications based on a set of requirements and graphical mock ups. This meant full construction of all back-end functionality (including the design and creation of supporting databases) and the implementation of the user interface based on the provided mock ups and using handrolled CSS and Javascript.
+While at <span class="redacted">XXXXXXX</span> my main responsibility was the creation of web applications based on a set of requirements and graphical mock ups. This meant full construction of all back-end functionality (including the design and creation of supporting databases) and the implementation of the user interface based on the provided mock ups and using hand-rolled CSS and Javascript.
 
 Whereas my current role at <span class="redacted">XXXXXXX</span> has me frequently working on outward facing RESTful APIs, while at <span class="redacted">XXXXXXX</span> I implemented a number of integrations with 3rd party APIs such as payment gateways, CRMs (such as Salesforce) and commonly Google APIs (such as the Google maps API).
 
