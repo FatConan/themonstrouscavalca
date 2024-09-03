@@ -1,5 +1,5 @@
 @import url(/resources/css/reset.css);
-@import url('https://fonts.googleapis.com/css?family=Creepster&display=block');
+@import url(/resources/css/fonts.css);
 @import url('https://use.typekit.net/xaq0fga.css');
 
 html {
@@ -249,7 +249,7 @@ footer a{
 .cms li a + em{
     display: none;
 }
-.cms{
+.cms *{
     line-height: 1.5;
 }
 .cms a{
@@ -307,6 +307,33 @@ footer a{
     font-style: italic;
 }
 
+.cv .redacted{
+    color: transparent;
+    background: #ffffff;
+}
+
+.cv  h3 .redacted{
+    background: #ffcc00ff;
+}
+
+.cv ul{
+    grid-gap: 80px 40px;
+    margin: 40px 0;
+}
+
+.cv li{
+    box-sizing: border-box;
+    padding: 20px;
+    border: solid #fff;
+    border-width: 1px 1px 3px 3px;
+    transition: all 0.75s;
+}
+
+.cv li:hover {
+    background: #ffcc00ff;
+    color: #000;
+    border-color: #000;
+}
 
 .garderobe-index p:first-of-type{
 }
