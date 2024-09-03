@@ -259,7 +259,6 @@ footer a{
 .cms a:hover{
     text-decoration: underline;
 }
-
 .cms ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -268,7 +267,6 @@ footer a{
 .cms li {
     display: block;
 }
-
 .cms li a{
     color: #fff;
     display: block;
@@ -276,7 +274,6 @@ footer a{
     font-weight: bold;
     margin-bottom: 11px;
 }
-
 .cms h1{
     color: #ffffff;
     font-family: "Creepster", sans-serif;
@@ -311,24 +308,20 @@ footer a{
     color: transparent;
     background: #ffffff;
 }
-
 .cv  h3 .redacted{
     background: #ffcc00ff;
 }
-
 .cv ul{
     grid-gap: 80px 40px;
     margin: 40px 0;
 }
-
 .cv li{
     box-sizing: border-box;
     padding: 20px;
     border: solid #fff;
     border-width: 1px 1px 3px 3px;
-    transition: all 0.75s;
+    transition: background 0.75s, border-color 0.75s, color 0.75s;
 }
-
 .cv li:hover {
     background: #ffcc00ff;
     color: #000;
