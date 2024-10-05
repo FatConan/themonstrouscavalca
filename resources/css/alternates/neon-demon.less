@@ -1,0 +1,362 @@
+@import url(/resources/css/reset.css);
+@import "neon-demon-animations.less";
+
+@font-face {
+    font-family: 'Tilt Neon';
+    font-display: block;
+    src: url(/resources/fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT,YROT.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-display: block;
+    src: url(/resources/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf) format('truetype');
+}
+
+@linkNormal: #dddddd;
+@textDefault: #bbbbbb;
+@neonFont: "Tilt Neon", sans-serif;
+@defaultMaxWidth: 650px;
+
+body{
+    background: linear-gradient(-215deg, #170107, #000000);
+    //height: 100vh;
+    width: 100%;
+    color: @textDefault;
+    font-weight: 500;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16pt;
+}
+
+.body-wrapper{
+    background: url("/resources/img/neon-demon/motel.webp") bottom center no-repeat;
+    background-size: 100% auto;
+    visibility: visible;
+    position: relative;
+}
+
+.body-wrapper-inner{
+    max-width: @defaultMaxWidth;
+    margin: 0 auto;
+}
+
+header{
+    padding: 3em 0;
+    max-width: @defaultMaxWidth;
+    margin: 0 auto;
+    position: relative;
+
+    .main-title{
+        text-transform: uppercase;
+        font-family: @neonFont;
+        color: @primaryNeon;
+        text-decoration: none;
+
+        span.the{
+            display: block;
+            text-align: center;
+            font-size: 30pt;
+            text-shadow: 0 0 10px;
+        }
+
+        span.monstrous{
+            display: block;
+            text-align: center;
+            font-size: 80pt;
+            text-shadow: 0 0 25px;
+
+            span:nth-of-type(2){
+                animation-name: flicker1;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+
+            span:nth-of-type(1){
+                animation-name: flicker2;
+                animation-duration: 15s;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        span.cavalcade{
+            color: @secondaryNeon;
+            display: block;
+            text-align: center;
+            font-size: 60pt;
+            text-shadow: 0 0 25px;
+            transform: rotate(-8deg);
+
+            span:nth-of-type(2){
+                animation-name: flicker3;
+                animation-duration: 20s;
+                animation-delay: 4s;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 50px;
+    height: 100%;
+
+    //outer div
+    & > div{
+        perspective: 240px;
+    }
+
+    //inner div
+    & > div > div{
+        border: 5px solid @primaryNeon;
+        border-radius: 10px;
+        box-shadow: 0 0 25px @primaryNeon;
+        width: 300px;
+        height: 200px;
+        rotate: y 21deg;
+    }
+
+    .nav-links{
+        border: 5px solid transparent;
+        border-radius: 10px;
+        box-shadow: 0 0 25px @primaryNeon inset;
+        width: 300px;
+        height: 200px;
+        transform: translate3d(-5px, -5px, 0);
+
+        &::before{
+            content: "HOTEL";
+            display: block;
+            position: absolute;
+            color: @offNeon;
+            text-shadow: none;
+            font-size: 50pt;
+            text-align: center;
+            rotate: y 21deg;
+            left: 50%;
+            top: -20px;
+            transform: translate3d(-50%, -100%, 0);
+            font-family: @neonFont;
+        }
+
+        &::after{
+            content: "H__EL";
+            display: block;
+            position: absolute;
+            color: @secondaryNeon;
+            text-shadow: 0 0 25px @secondaryNeon;
+            font-size: 50pt;
+            text-align: center;
+            rotate: y 21deg;
+            left: 50%;
+            top: -20px;
+            transform: translate3d(-50%, -100%, 0);
+            font-family: @neonFont;
+        }
+
+        li:first-of-type{
+            margin-top: 1em;
+        }
+    }
+
+    .go-home{
+        a{
+            color: @tertiaryNeon;
+            text-shadow: 0 0 25px @tertiaryNeon;
+            font-size: 28pt;
+            font-weight: bold;
+            transform: translate3d(-50%, 140px, 0);
+            font-family: @neonFont;
+            position: absolute;
+            width: 200px;
+            left: 50%;
+            bottom: 0;
+
+
+            &:hover{
+                color: @tertiaryNeon;
+                text-shadow: 0 0 25px @tertiaryNeon;
+                animation: none;
+            }
+
+            &::after{
+                content: "↢";
+                display: block;
+                font-size: 72pt;
+                margin-top: -.3em;
+                animation: flicker4;
+                animation-duration: 20s;
+                animation-delay: 4s;
+                animation-iteration-count: infinite;
+            }
+        }
+
+        &.hidden a{
+            color: @offNeon;
+            text-shadow: none;
+
+            &:hover{
+                color: @offNeon;
+                text-shadow: none;
+                animation: none;
+            }
+
+            &::after{
+                animation: none;
+            }
+        }
+    }
+
+    a{
+        display: block;
+        font-size: 20pt;
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    nav{
+        display: none;
+    }
+}
+
+a.home{
+    display: none;
+}
+
+a{
+    color: @linkNormal;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 0 25px #000000;
+
+    &:hover{
+        color: @secondaryNeon;
+        text-shadow: 0 0 25px @secondaryNeon;
+        animation-name: flicker3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+.homepage{
+    h1{
+        display: none;
+    }
+}
+
+.cms{
+    *{
+        line-height: 1.5;
+    }
+
+    p, ul, ol{
+        margin: 0 1em 2em;
+        max-width: 75ch;
+    }
+
+    li{
+        margin-bottom: 1em;
+    }
+
+    h1{
+        color: transparent;
+        text-shadow: 0 0 7px @secondaryNeon;
+        font-size: 30pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 2em 2em 1em;
+        padding: 0;
+        transform: rotate(-1.7deg);
+        text-align: center;
+        position: relative;
+        vertical-align: middle;
+
+        &::before{
+            content: " ";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 5px solid @secondaryNeon;
+            box-shadow: 0 0 25px @secondaryNeon;
+            border-radius: 10px;
+        }
+
+        &::after{
+            content: " ";
+            display: block;
+            position: absolute;
+            box-shadow: 0 0 25px @secondaryNeon inset;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border: 5px solid @secondaryNeon;
+            border-radius: 10px;
+        }
+    }
+
+    h2{
+        color: @primaryNeon;
+        font-size: 30pt;
+        margin: 1.5em .5em 1em;
+        text-align: right;
+        text-transform: lowercase;
+        text-shadow: 0 0 25px @primaryNeon;
+        font-family: "Tilt Neon", sans-serif;
+
+        &:nth-of-type(5n+0){
+            transform: rotate(3deg);
+        }
+
+        &:nth-of-type(5n-1){
+            transform: rotate(-1.9deg);
+            text-align: left;
+        }
+
+        &:nth-of-type(5n-2){
+            transform: rotate(1.8deg);
+            animation-name: flicker2;
+            animation-duration: 9s;
+            animation-delay: 1.2s;
+            animation-iteration-count: infinite;
+        }
+
+        &:nth-of-type(5n-3){
+            transform: rotate(2.7deg);
+        }
+
+        &:nth-of-type(5n-4){
+            text-align: left;
+            transform: rotate(0deg);
+        }
+    }
+
+    h3{
+        font-size: 25pt;
+        margin-bottom: 1em;
+    }
+
+    h4{
+        font-size: 20pt;
+        margin-bottom: 1em;
+    }
+}
+
+.cv .redacted{
+    color: @secondaryNeon;
+    text-shadow: 0 0 25px @secondaryNeon;
+    animation-name: flicker3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    margin-top: 25em;
+}

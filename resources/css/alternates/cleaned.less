@@ -1,0 +1,116 @@
+@import url(/resources/css/reset.css);
+
+html {
+    font-family: 'Open Sans', serif;
+    font-size: 15pt;
+    color: #111;
+    width: 100%;
+}
+
+.homepage li a+ em,
+.cms li a + em{
+    display: none;
+}
+.cms *{
+    line-height: 1.5;
+}
+.cms a{
+    color: #ffcc00;
+    text-decoration: none;
+}
+.cms a:hover{
+    text-decoration: underline;
+}
+.cms ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.cms li {
+    display: block;
+}
+.cms li a{
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+.cms h1{
+    color: #ffffff;
+    font-family: "Creepster", sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+.cms h2{
+    color: #ffcc00;
+    font-family: "Creepster", sans-serif;
+    font-size: 40px;
+}
+.cms h3{
+    color: #ffcc00;
+    font-size: 30px;
+}
+.cms h4{
+    color: #fff;
+    font-size: 20px;
+}
+.cms p, .cms ul {
+    padding: 20px 0;
+}
+.cms strong{
+    font-weight: bold;
+}
+.cms em{
+    font-style: italic;
+}
+
+.body-wrapper{
+    visibility: visible;
+}
+
+.body-wrapper-inner{
+    background: url(/resources/img/cleaned/shelves.webp) center center no-repeat;
+    background-size: contain;
+    perspective: 1000px;
+    width: 600px;
+    margin: 50px auto;
+}
+
+#page-content{
+    background: black;
+    color: #fff;
+    rotate: y 21deg;
+    transition: rotate ease-in-out 1s, opacity 1s;
+    height: 700px;
+    transform: translate3d(-100px, 0, 0);
+    opacity: 0.75;
+}
+
+#page-content .inner{
+     margin: 20px;
+     padding: 20px;
+     height: 640px;
+     overflow: auto;
+}
+
+#page-content:hover{
+    rotate: y 0deg;
+    opacity: 1;
+}
+
+header {
+    background: deeppink;
+    width: 300px;
+    height: 200px;
+    rotate: y -10deg;
+    opacity: 0.5;
+    transform: translate3d(480px, 100px, 0);
+    transition: rotate ease-in-out 1s, opacity 1s;
+}
+
+header:hover{
+    rotate: y 0deg;
+    opacity: 1;
+}

@@ -1,0 +1,152 @@
+@primaryNeon: #00ffff;
+@secondaryNeon: #ff00ff;
+@tertiaryNeon: #ff0000;
+@offNeon: rgba(34, 34, 34, 0.8);
+
+@keyframes flicker1{
+    0%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    1%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    3%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    69%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    70%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    71%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    100%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px aqua;
+    }
+}
+
+@keyframes flicker2{
+    0%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    1%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    2%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    3%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    69%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    70%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    74%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    75%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+    100%{
+        color: @primaryNeon;
+        text-shadow: 0 0 25px @primaryNeon;
+    }
+}
+
+@keyframes flicker3{
+    0%{
+        color: @secondaryNeon;
+        text-shadow: 0 0 25px @secondaryNeon;
+    }
+    1%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    2%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    3%{
+        color: @secondaryNeon;
+        text-shadow: 0 0 25px @secondaryNeon;
+    }
+    69%{
+        color: @secondaryNeon;
+        text-shadow: 0 0 25px @secondaryNeon;
+    }
+    70%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    74%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    75%{
+        color: @secondaryNeon;
+        text-shadow: 0 0 25px @secondaryNeon;
+    }
+    100%{
+        color: @secondaryNeon;
+        text-shadow: 0 0 25px @secondaryNeon;
+    }
+}
+
+@keyframes flicker4{
+    0%{
+        color: @tertiaryNeon;
+        text-shadow: 0 0 25px @tertiaryNeon;
+    }
+    1%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    2%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    3%{
+        color: @tertiaryNeon;
+        text-shadow: 0 0 25px @tertiaryNeon;
+    }
+    69%{
+        color: @tertiaryNeon;
+        text-shadow: 0 0 25px @tertiaryNeon;
+    }
+    70%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    74%{
+        color: @offNeon;
+        text-shadow: none;
+    }
+    75%{
+        color: @tertiaryNeon;
+        text-shadow: 0 0 25px @tertiaryNeon;
+    }
+    100%{
+        color: @tertiaryNeon;
+        text-shadow: 0 0 25px @tertiaryNeon;
+    }
+}
