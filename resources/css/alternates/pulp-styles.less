@@ -380,16 +380,48 @@ footer{
 }
 
 .cv ul{
-    grid-gap: 80px 40px;
-    margin: 40px 0;
+    display: block;
 }
 
 .cv li{
-    padding: 20px;
-    border: solid #ffffff;
-    border-width: 1px 1px 3px 3px;
+    padding: .2rem 1rem;
+    margin-bottom: 1rem;
+    border-left: 2px solid #ffffff;
+    //border-width: 1px 1px 3px 3px;
     transition: background 0.75s, border-color 0.75s, color 0.75s;
 }
+
+.cv .role {
+    display: grid;
+    grid-template-columns: 1fr 30ch;
+    grid-template-rows: auto auto;
+    grid-template-areas: "title title"
+                         "main  aside";
+    grid-gap: 1rem;
+}
+
+.cv .role .role-title {
+    grid-area: title;
+}
+.cv .role .role-highlights {
+    grid-area: main;
+}
+.cv .role aside {
+    background: #fff;
+    color: #000;
+    grid-area: aside;
+    padding: 1rem;
+
+    h4 {
+        color: #000;
+        font-weight: bold;
+    }
+
+    li{
+        border-left: 2px solid #000;
+    }
+}
+
 
 .cv li:hover{
     background: @blazinYellow;
