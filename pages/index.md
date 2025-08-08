@@ -27,7 +27,7 @@ Over the years the collection of [terrible creations](/terrible-creations#top) b
 
 Sometimes thoughts drip from the curator's mind like ooze from a spill pipe. On occasion he takes pleasure in capturing this goo in a specimen jar, and displaying alongside the other horrors in his twisted collection. These sickening examples can be browsed, at the risk of the reader, in the darkened corner of this twisted circus forever known as the [blog](/ill-conceptions). 
 
-Conversely some of the curator's thoughts aren't worthy of collecting and are dumped, by the bucket load, into the void of [twitter](https://twitter.com/fatconan). Some of
+Conversely some of the curator's thoughts aren't worthy of collecting and are dumped, by the bucket load, into the void of twitter. Some of
 those unworthy ideas can be found, amongst other slop and ichor, in [The Garderobe](/ill-conceptions/the-garderobe). 
 
 ## Hideous Entities
